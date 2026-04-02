@@ -147,7 +147,7 @@ export default function About() {
               <div className="team-modern-grid">
                   <div className="team-modern-card">
                       <div className="team-img-wrapper">
-                          <img src="https://images.unsplash.com/photo-1583335821967-5c58043734e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Elçin Əliyev" />
+                          <img src="https://i.pinimg.com/1200x/24/69/5e/24695ebcd29984c359a08581c1daa0f2.jpg" alt="Elçin Əliyev" />
                           <div className="team-socials">
                               <a href="#"><FaInstagram /></a>
                               <a href="#"><FaXTwitter /></a>
@@ -162,7 +162,7 @@ export default function About() {
 
                   <div className="team-modern-card">
                       <div className="team-img-wrapper">
-                          <img src="https://images.unsplash.com/photo-1581579911298-f682894b9015?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Aysel Məmmədova" />
+                          <img src="https://i.pinimg.com/736x/43/23/e9/4323e9fee70554736ffa77215536dd25.jpg" alt="Aysel Məmmədova" />
                           <div className="team-socials">
                               <a href="#"><FaLinkedinIn /></a>
                               <a href="#"><FaInstagram /></a>
@@ -177,7 +177,7 @@ export default function About() {
 
                   <div className="team-modern-card">
                       <div className="team-img-wrapper">
-                          <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Rəşad Həsənov" />
+                          <img src="https://i.pinimg.com/736x/ea/4b/9e/ea4b9e5eafb6a1fcccfa0549f89f0d3f.jpg" alt="Rəşad Həsənov" />
                           <div className="team-socials">
                               <a href="#"><FaXTwitter /></a>
                               <a href="#"><FaInstagram /></a>
