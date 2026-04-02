@@ -1,0 +1,740 @@
+{
+  "nav": {
+    "home": "Ana Səhifə",
+    "menu": "Menyu",
+    "favorites": "Seçilmişlər",
+    "orders": "Sifarişlərim",
+    "about": "Haqqımızda",
+    "contact": "Əlaqə",
+    "blogs": "Bloqlar",
+    "login": "Daxil Ol",
+    "logout": "Çıxış",
+    "blog_detail": "Bloq Detalı"
+  },
+  "home": {
+    "hero": {
+      "s1": {
+        "sub": "Premium Qəhvə Təcrübəsi",
+        "title": "Günə Mükəmməl Bir Başlanğıc",
+        "text": "Ən təzə dənələrdən hazırlanmış, sevgi ilə dəmlənmiş qəhvələrimizi kəşf edin.",
+        "btn": "İndi Sifariş Et"
+      },
+      "s2": {
+        "sub": "Xüsusi Qovrulmuş",
+        "title": "Əsl Ləzzəti Hiss Edin",
+        "text": "Dünyanın ən yaxşı plantasiyalarından gələn zəngin aromalar.",
+        "btn": "Menyuya Bax"
+      },
+      "s3": {
+        "sub": "Günün Hər Saatında",
+        "title": "Fərqli Bir Təcrübə",
+        "text": "İsti və soyuq içkilərimizlə hər ana xüsusi bir toxunuş qatın.",
+        "btn": "Haqqımızda"
+      }
+    },
+    "features": {
+      "title": "Niyə Biz?",
+      "sub": "Mükəmməlliyə gedən yol",
+      "f1": {
+        "title": "100% Orqanik Dənələr",
+        "desc": "Yalnız ən yüksək keyfiyyətli, etik mənbələrdən əldə edilmiş təbii qəhvə dənələri istifadə edirik."
+      },
+      "f2": {
+        "title": "Xüsusi Qovrulma",
+        "desc": "Hər bir qəhvə növü üçün xüsusi hazırlanmış qovrulma profilləri ilə əsl ləzzəti ortaya çıxarırıq."
+      },
+      "f3": {
+        "title": "Usta Baristalar",
+        "desc": "Peşəkar baristalarımız hər fincan qəhvəni bir sənət əsərinə çevirir, sizə qüsursuz təcrübə yaşadır."
+      }
+    },
+    "about": {
+      "exp1": "10+",
+      "exp2": "İllik<br/>Təcrübə",
+      "stat1": "Qəhvə Çeşidi",
+      "stat2": "Müştəri",
+      "stat3": "Filial",
+      "subtitle": "BİZİM HEKAYƏMİZ",
+      "title": "Hər Fincanda Bir Ləzzət, Hər Qurtumda Sənət",
+      "desc": "Qəhvə sadəcə içki deyil, insanları birləşdirən bir vasitədir. Biz hər fincanda bu istiliyi hiss etdirmək üçün çalışırıq. 2014-cü ildən bəri kofe sevərlərin ən sevimli məkanıyıq.",
+      "l1": "Gündəlik Təzə Qovrulma",
+      "l2": "Rahat və İsti Atmosfer",
+      "l3": "Dünya Klassikləri və Özəl Reseptlər",
+      "btn": "Haqqımızda Daha Çox"
+    },
+    "process": {
+      "title": "Bizim Proses",
+      "sub": "Dənədən fincana mükəmməllik səyahəti",
+      "s1": {
+        "title": "Seçim",
+        "desc": "Dünyanın ən yaxşı plantasiyalarından yüksək keyfiyyətli (Specialty) qəhvə dənələrini diqqətlə seçirik."
+      },
+      "s2": {
+        "title": "Qovrulma",
+        "desc": "Hər dənənin potensialını üzə çıxarmaq üçün usta roasterlərimiz tərəfindən mükəmməl dərəcədə qovrulur."
+      },
+      "s3": {
+        "title": "Dəmlənmə",
+        "desc": "Müasir avadanlıqlar və ənənəvi üsulların vəhdəti ilə baristalarımız tərəfindən həssaslıqla dəmlənir."
+      },
+      "s4": {
+        "title": "Təqdimat",
+        "desc": "Gözəl latte art və mükəmməl dadla – sizin üçün sevgi ilə hazırlanmış bir şedevr olaraq təqdim edilir."
+      }
+    },
+    "quote": {
+      "text": "Qəhvə bir fincana sığan xoşbəxtlikdir. Biz o xoşbəxtliyi sizin üçün xüsusi hazırlayırıq.",
+      "role": "Baş Barista"
+    },
+    "news": {
+      "title": "Kofe Dünyasında Nələr Var?",
+      "sub": "Yeniliklər, məsləhətlər və hekayələr",
+      "read": "Daha ətraflı",
+      "b1": {
+        "day": "15",
+        "month": "May 2026",
+        "category": "Bələdçi",
+        "title": "Evdə Mükəmməl V60 Dəmləmənin Sirləri",
+        "desc": "Düzgün üyütmə dərəcəsindən suyun istiliyinə qədər V60 dəmləmənin bütün incəliklərini öyrənin."
+      },
+      "b2": {
+        "day": "02",
+        "month": "May 2026",
+        "category": "Yeniliklər",
+        "title": "Yaz Mövsümü Üçün Yeni Soyuq İçkilərimiz",
+        "desc": "İsti havalarda sərinləmək üçün xüsusi hazırlanmış buzlu qəhvə menyumuzla tanış olun."
+      },
+      "b3": {
+        "day": "20",
+        "month": "Apr 2026",
+        "category": "Mədəniyyət",
+        "title": "Efiopiya: Qəhvənin Vətəninə Səyahət",
+        "desc": "Arabika dənəsinin kəşf olunduğu torpaqların zəngin qəhvə mədəniyyəti ilə yaxından tanış olun."
+      }
+    },
+    "newsletter": {
+      "title": "Səhər Qəhvəniz Bizdən Olsun!",
+      "desc": "E-poçt bülletenimizə abunə olun, yeni məhsullar, xüsusi endirimlər və kofe haqqında maraqlı məqalələrdən ilk sizin xəbəriniz olsun. İlk sifarişinizə 15% endirim qazanın!",
+      "plc": "E-poçt ünvanınız",
+      "btn": "Abunə Ol",
+      "alert": "Abunə oldunuz! Təşəkkürlər."
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Hekayəmiz",
+      "sub": "Bir fincan qəhvədən daha çoxu"
+    },
+    "story": {
+      "badge1": "2026",
+      "badge2": "Quruluş",
+      "sub": "Başlanğıc",
+      "title": "Tutqudan Reallığa",
+      "p1": "2026-cü ildə Bakının qəlbində kiçik bir arzu ilə başladıq: insanlara sadəcə kofein deyil, həm də ilham verən bir təcrübə bəxş etmək istədik. Biz inanırıq ki, hər qəhvə dənəsi bir hekayə danışır – torpağın, günəşin və onu yetişdirən əllərin hekayəsini.",
+      "p2": "Bizim missiyamız, dünyanın ən keyfiyyətli arabika dənələrini birbaşa fermerlərdən əldə edərək, onları ənənəvi üsullarla qovurmaq və sizə təqdim etməkdir.",
+      "stat1": "Müştəri",
+      "stat2": "Qəhvə Növü",
+      "stat3": "Təbii"
+    },
+    "values": {
+      "title": "Bizim Dəyərlərimiz",
+      "sub": "Hər fincanda hiss etdiyiniz mükəmməlliyin arxasındakı prinsiplər",
+      "v1": {
+        "title": "Davamlılıq",
+        "desc": "Təbiətə zərər vermədən, ekoloji təmiz qablaşdırma və istehsal üsullarından istifadə edirik."
+      },
+      "v2": {
+        "title": "Keyfiyyət",
+        "desc": "Hər zaman ən təzə və ən yüksək keyfiyyətli məhsulları seçirik. Kompromis yoxdur."
+      },
+      "v3": {
+        "title": "İcma",
+        "desc": "Qəhvə evimiz sadəcə mağaza deyil, dostların görüşdüyü, fikirlərin paylaşıldığı bir məkandır."
+      }
+    },
+    "team": {
+      "title": "Peşəkar Komandamız",
+      "sub": "Sizə hər gün xidmət edən, işinə aşiq olan simalar",
+      "role1": "Baş Barista",
+      "role2": "Menecer",
+      "role3": "Qəhvə Ustası (Roaster)",
+      "desc1": "Qəhvə dəmləmə və latte art üzrə 8 illik təcrübəyə malikdir.",
+      "desc2": "Müştəri məmnuniyyəti və qüsursuz xidmətdən cavabdehdir.",
+      "desc3": "Qəhvə dənələrini ən düzgün profildə qovuran sənətkardır."
+    },
+    "journey": {
+      "title": "Dənədən Fincana Mükəmməllik",
+      "sub": "Bizim Proses",
+      "s1": {
+        "title": "Keyfiyyətli Mənbə",
+        "desc": "Dünyanın ən yaxşı plantasiyalarından yüksək keyfiyyətli dənələr seçirik."
+      },
+      "s2": {
+        "title": "Usta Qovrulma",
+        "desc": "Hər dənənin xüsusi dadını üzə çıxarmaq üçün peşəkar üsullarla qovururuq."
+      },
+      "s3": {
+        "title": "Həssas Dəmləmə",
+        "desc": "Müasir texnologiya və barista sənətinin vəhdəti ilə qeyri-adi ləzzət yaradırıq."
+      },
+      "s4": {
+        "title": "Mükəmməl Dad",
+        "desc": "Hər qurtumda COFFEELAND-in fərqli enerjisini və keyfiyyətini hiss edirsiniz."
+      }
+    }
+  },
+  "menu": {
+    "all": "Bütün",
+    "add": "Səbətə At",
+    "cat_coffee": "Qəhvə",
+    "cat_tea": "Çay",
+    "cat_dessert": "Şirniyyat",
+    "cat_breakfast": "Səhər Yeməyi"
+  },
+  "footer": {
+    "desc": "Ən yaxşı dənələrdən ustalıqla hazırlanmış qəhvə. Gününüzün mükəmməl başlanğıcı və ən xoş fasiləniz üçün buradayıq.",
+    "links_title": "Keçidlər",
+    "contact_title": "Əlaqə",
+    "categories_title": "Menyu",
+    "address": "Nizami küçəsi 123,<br/>Bakı, Azərbaycan",
+    "rights": "COFFEELAND. Bütün hüquqlar qorunur.",
+    "privacy": "Məxfilik Siyasəti",
+    "terms": "İstifadə Şərtləri",
+    "hours_title": "İş Saatları",
+    "mon_fri": "Bazar ertəsi - Cümə",
+    "mon_fri_hours": "08:00 - 22:00",
+    "sat": "Şənbə",
+    "sat_hours": "09:00 - 23:00",
+    "sun": "Bazar",
+    "sun_hours": "09:00 - 21:00"
+  },
+  "cart": {
+    "title": "Səbətiniz",
+    "empty": "Səbətiniz boşdur.",
+    "empty_title": "Səbətiniz Boşdur",
+    "empty_sub": "Menyumuza keçid edərək ən ləzzətli qəhvələrimizi kəşf edin və səbətinizə əlavə edin.",
+    "remove": "Sil",
+    "total": "Cəmi:",
+    "checkout": "Sifarişi Təsdiqlə",
+    "clear": "Hamısını sil",
+    "alert_success": "Sifariş tamamlandı!",
+    "alert_error": "Sifariş yaradılarkən xəta baş verdi. Zəhmət olmasa bir daha cəhd edin."
+  },
+  "auth": {
+    "login_title": "Daxil Ol",
+    "login_sub": "Hesabınıza daxil olun",
+    "email_label": "E-poçt",
+    "email_placeholder": "sizin@email.com",
+    "pass_label": "Şifrə",
+    "pass_placeholder": "Şifrənizi daxil edin",
+    "btn_login": "Daxil Ol",
+    "no_account": "Hesabınız yoxdur?",
+    "register_link": "Qeydiyyatdan keçin",
+    "err_email_req": "E-poçt tələb olunur",
+    "err_email_invalid": "Düzgün e-poçt daxil edin",
+    "err_pass_req": "Şifrə tələb olunur",
+    "err_pass_min": "Şifrə minimum 6 simvol olmalıdır",
+    "register_title": "Qeydiyyat",
+    "register_sub": "Yeni hesab yaradın",
+    "fname_label": "Ad",
+    "fname_placeholder": "Adınız",
+    "fname_pop": "Adınızı düzgün qeyd edin",
+    "lname_label": "Soyad",
+    "lname_placeholder": "Soyadınız",
+    "lname_pop": "Soyadınızı düzgün qeyd edin",
+    "address_label": "Ünvan",
+    "address_placeholder": "Ünvanınız (məs: Bakı ş., Nizami küç. 42)",
+    "address_pop": "Yaşayış yerinizi dəqiq yazın",
+    "pass_conf_label": "Şifrə Təkrarı",
+    "pass_conf_placeholder": "Şifrəni təkrar daxil edin",
+    "pass_pop": "Şifrə: Minimum 8 simvol, 1 böyük hərf, 1 rəqəm",
+    "err_email_format": "E-poçt @ işarəsi olmalıdır və doğru formatda olmalıdır",
+    "err_pass_weak": "Şifrə çox zəifdir. Min. 8 simvol, 1 böyük hərf, 1 rəqəm olmalıdır",
+    "err_pass_match": "Şifrələr uyğun deyil",
+    "strength": "Şifrə Gücü",
+    "btn_register": "Qeydiyyatdan Keç",
+    "has_account": "Artıq hesabınız var?",
+    "login_link": "Daxil olun",
+    "alert_success": "Qeydiyyat uğurludur!",
+    "email_pop": "E-poçt @ işarəsi olmalıdır",
+    "pass_pop2": "Min. 8 simvol, 1 böyük hərf, 1 durğu işarəsi",
+    "pass_match_success": "Şifrəniz uyğundur ✓",
+    "empty_fields": "Zəhmət olmasa bütün xanaları doldurun.",
+    "terms_accept": "Mən razıyam: ",
+    "terms_link": "İstifadə Şərtləri",
+    "and": " və ",
+    "privacy_link": "Məxfilik Siyasəti",
+    "terms_req": "Qeydiyyatdan keçmək üçün şərtləri qəbul etməlisiniz.",
+    "pass_conf_pop": "Şifrənizi təkrar daxil edin",
+    "overlay_left_title": "Xoş Gəlmisiniz!",
+    "overlay_left_text": "Öz hesabınıza daxil olaraq qəhvə sifarişi verin.",
+    "overlay_right_title": "Bizə Qoşulun!",
+    "overlay_right_text": "Hesab yaradın və ləzzətli qəhvələrimizi kəşf edin.",
+    "login_empty_err": "Zəhmət olmasa mailinizi və şifrənizi yoxlayın.",
+    "login_invalid_err": "Mail və ya şifrəniz yanlışdır.",
+    "forgot_pass_q": "Şifrənizi unutmusunuz?",
+    "forgot_pass_link": "Unutmuşam",
+    "reset_pass_title": "Şifrənin Yenilənməsi",
+    "reset_pass_desc": "E-poçt (mail) vasitəsilə şifrənizi yeniləyə bilərsiniz.",
+    "btn_reset": "Yeniləmə Linki Göndər",
+    "email_used_err": "Bu mail istifadə olunub, yeni mail daxil edin !"
+  },
+  "profile": {
+    "guest": "Qonaq İstifadəçi",
+    "status_pending": "Gözləyir",
+    "status_preparing": "Hazırlanır",
+    "status_completed": "Tamamlandı",
+    "tab_info": "Məlumatlarım",
+    "tab_orders": "Sifarişlərim",
+    "tab_favs": "Seçilmişlər",
+    "tab_settings": "Tənzimləmələr",
+    "logout": "Çıxış et",
+    "fname": "Ad",
+    "lname": "Soyad",
+    "email": "E-poçt",
+    "address": "Ünvan",
+    "not_provided": "Qeyd olunmayıb",
+    "btn_edit": "Məlumatları Yenilə",
+    "alert_success": "Məlumatlar uğurla yeniləndi!",
+    "new_email": "Yeni E-poçt",
+    "del_address": "Çatdırılma Ünvanı",
+    "address_placeholder": "Ünvanınızı buraya daxil edin",
+    "new_pass": "Yeni Şifrə",
+    "new_pass_placeholder": "Yeni şifrənizi təyin edin",
+    "pass_conf": "Şifrənin Təkrarı",
+    "pass_conf_placeholder": "Yeni şifrəni bir daha yazın",
+    "btn_save": "Yadda Saxla"
+  },
+  "orders": {
+    "title": "Sifarişlərim",
+    "sub": "Keçmiş sifarişlərinizə baxın və izləyin",
+    "empty_title": "Hələ sifariş yoxdur",
+    "empty_sub": "Menyumuzdan ləzzətli məhsullar seçib ilk sifarişinizi verin!",
+    "btn_menu": "Menyuya Keç",
+    "history": "Sifariş Tarixçəsi",
+    "order_count": "sifariş",
+    "order_lbl": "Sifariş",
+    "no_date": "Tarix yoxdur",
+    "products": "Məhsullar",
+    "product_lbl": "Məhsul #",
+    "total": "Cəmi",
+    "completed": "Tamamlandı",
+    "pending": "Gözləyir",
+    "btn_delete": "Sil",
+    "confirm_delete_msg": "Bu sifarişi silmək istəyirsiniz?",
+    "confirm_delete_title": "Sifarişi Sil",
+    "deleted_success": "Sifariş uğurla silindi!"
+  },
+  "favorites": {
+    "title": "Seçilmişlər",
+    "sub": "Bəyəndiyiniz qəhvələr bir yerdə",
+    "empty_title": "Hələ heç nəyi bəyənməmisiniz",
+    "empty_sub": "Menyumuza göz atın və sevimli qəhvələrinizi seçilmişlərə əlavə edin.",
+    "btn_menu": "Menyuya Bax"
+  },
+  "privacy": {
+    "title": "Məxfilik Siyasəti",
+    "last_updated": "Son yenilənmə: 20 Mart 2026",
+    "intro": "COFFEELAND olaraq məxfiliyinizə hörmət edirik və şəxsi məlumatlarınızın qorunmasına sadiqik. Bu siyasət vebsaytımızdan istifadə etdiyiniz zaman məlumatlarınızın necə toplandığını və istifadə edildiyini izah edir.",
+    "s1_title": "1. Hansı məlumatları toplayırıq?",
+    "s1_text": "Biz sizə xidmət göstərmək üçün ad, soyad, e-poçt ünvanı, telefon nömrəsi və çatdırılma ünvanı kimi məlumatları toplayırıq. Həmçinin vebsaytımızda naviqasiya zamanı bəzi texniki məlumatlar (IP ünvanı, brauzer növü) avtomatik toplana bilər.",
+    "s2_title": "2. Məlumatlarınızdan necə istifadə edirik?",
+    "s2_text": "Topladığımız məlumatlar sifarişlərinizi emal etmək, hesabınızı idarə etmək, xidmət keyfiyyətimizi artırmaq və icazəniz olarsa, yeni kampaniyalar haqqında sizi məlumatlandırmaq üçün istifadə olunur.",
+    "s3_title": "3. Çərəzlər (Cookies)",
+    "s3_text": "Vebsaytımız istifadəçi təcrübəsini təkmilləşdirmək üçün çərəzlərdən istifadə edir. Brauzer tənzimləmələrinizdən çərəzləri istənilən vaxt söndürə bilərsiniz.",
+    "s4_title": "4. Məlumatların Təhlükəsizliyi",
+    "s4_text": "Şəxsi məlumatlarınızın təhlükəsizliyini təmin etmək üçün müasir şifrələmə üsullarından və təhlükəsizlik protokollarından istifadə edirik.",
+    "s5_title": "5. Əlaqə",
+    "s5_text": "Məxfilik siyasətimizlə bağlı hər hansı sualınız olarsa, hello@coffeeland.az ünvanına yaza bilərsiniz."
+  },
+  "terms": {
+    "title": "İstifadə Şərtləri",
+    "last_updated": "Son yenilənmə: 20 Mart 2026",
+    "intro": "COFFEELAND vebsaytına və xidmətlərinə xoş gəlmisiniz. Bu sənəd bizim tərəfimizdən təqdim olunan bütün rəqəmsal və fiziki xidmətlərdən istifadə qaydalarını tənzimləyən hüquqi müqavilədir. Bu vebsaytdan istifadə etməklə siz aşağıda göstərilən bütün şərtləri qeyd-şərtsiz qəbul etmiş hesab olunursunuz.",
+    "s1_title": "1. Ümumi Müddəalar və Razılaşma",
+    "s1_text": "Bu İstifadə Şərtləri COFFEELAND ilə istifadəçi arasında bağlanan rəsmi razılaşmadır və tərəflərin hüquq və vəzifələrini müəyyən edir. Əgər siz bu şərtlərin hər hansı bir bəndi ilə razı deyilsinizsə, lütfən vebsaytdan istifadəni dərhal dayandırın. Biz bu şərtləri istənilən vaxt, əvvəlcədən xəbərdarlıq etmədən birtərəfli qaydada dəyişdirmək hüququnu özümüzdə saxlayırıq və yenilənmiş şərtlər saytda dərc edildiyi andan qüvvəyə minmiş sayılır.",
+    "s2_title": "2. İstifadəçi Hesabı və Məsuliyyət",
+    "s2_text": "Vebsaytımızda qeydiyyatdan keçərkən təqdim etdiyiniz məlumatların doğruluğuna və tamlığına görə şəxsən məsuliyyət daşıyırsınız. Hesabınızın şifrəsinin gizli saxlanılması və hesabınız vasitəsilə həyata keçirilən bütün fəaliyyətlər sizin birbaşa öhdəliyinizdir. Üçüncü tərəflərin hesabınıza icazəsiz daxil olmasından şübhələndiyiniz halda dərhal bizə məlumat verməyiniz tələb olunur. COFFEELAND saxta və ya yanlış məlumat təqdim edən istifadəçilərin hesablarını dondurmaq və ya ləğv etmək hüququna malikdir.",
+    "s3_title": "3. Əqli Mülkiyyət Hüquqları",
+    "s3_text": "Vebsaytdakı bütün məzmunlar, o cümlədən loqolar, dizayn elementləri, mətnlər, qrafiklər, videolar, proqram təminatı və digər materiallar COFFEELAND platformasına məxsusdur və beynəlxalq müəllif hüquqları qanunları ilə qorunur. Bu materialların bizim yazılı icazəmiz olmadan kopyalanması, ötürülməsi, kommersiya məqsədləri üçün istifadəsi və ya modifikasiya edilməsi qəti qadağandır. Hər hansı qanunsuz istifadə aşkar edildikdə müvafiq hüquqi tədbirlər görüləcəkdir.",
+    "s4_title": "4. Sifarişlər, Ödənişlər və Çatdırılma",
+    "s4_text": "Vebsayt vasitəsilə verilən hər bir sifariş rəsmi təklif hesab olunur və tərəfimizdən təsdiqləndikdən sonra qəbul edilmiş sayılır. Məhsulların qiymətləri və mövcudluğu istənilən vaxt dəyişdirilə bilər. Ödənişlər yalnız təqdim olunan təhlükəsiz üsullarla həyata keçirilməlidir. Çatdırılma müddəti və şərtləri seçdiyiniz ünvandan və logistik imkanlardan asılı olaraq dəyişə bilər. Fors-major hallar (təbii fəlakətlər, dövlət qərarları və s.) zamanı yaranan gecikmələrə görə COFFEELAND məsuliyyət daşımır.",
+    "s5_title": "5. Məsuliyyətin Məhdudlaşdırılması",
+    "s5_text": "Biz vebsaytın 24/7 kəsintisiz və xətasız işləyəcəyinə zəmanət vermirik, baxmayaraq ki, bunun üçün bütün texniki imkanlarımızı səfərbər edirik. İstifadəçi tərəfindən saytın istifadəsi zamanı baş verə biləcek hər hansı birbaşa və ya dolayı itkilərə, məlumat itkisinə və ya cihazlara dəyən zərərə görə COFFEELAND heç bir halda məsuliyyət daşımır. İstifadə şərtlərinə riayət edilməməsi nəticəsində yaranan bütün risklər istifadəçinin üzərinə düşür."
+  },
+  "contact": {
+    "title": "Bizimlə Əlaqə",
+    "sub": "Hər hansı bir sualınız və ya təklifiniz var? Bizə yazın!",
+    "form_name": "Adınız",
+    "form_email": "E-poçt ünvanınız",
+    "form_subject": "Mövzu",
+    "form_message": "Mesajınız",
+    "form_btn": "Mesajı Göndər",
+    "info_title": "Əlaqə Məlumatları",
+    "info_address": "Bakı şəhəri, Nizami küç. 45",
+    "info_phone": "+994 12 345 67 89",
+    "info_email": "hello@coffeeland.az",
+    "info_hours": "Hər gün: 08:00 - 23:00",
+    "success_header": "Uğurlu!",
+    "success_msg": "Mesajınız müvəffəqiyyətlə göndərildi. Tezliklə sizinlə əlaqə saxlayacağıq."
+  },
+  "blogs": {
+    "title": "Kofe Dünyasından Bloqlar",
+    "sub": "Kofe ilə bağlı dünyada nələr baş verir, öyrənmək üçün doğru yerdəsiniz.",
+    "read_more": "Daha ətraflı",
+    "pagination_prev": "Geri",
+    "pagination_next": "Növbəti",
+    "author": "Müəllif",
+    "recent_posts": "Son Paylaşımlar",
+    "categories": "Kateqoriyalar",
+    "items": [
+      {
+        "id": 1,
+        "category": "Bələdçi",
+        "title": "Evdə Mükəmməl V60 Dəmləmənin Sirləri",
+        "excerpt": "Düzgün üyütmə dərəcəsindən suyun istiliyinə qədər V60 dəmləmənin bütün incəliklərini öyrənin.",
+        "date": "15 May, 2026",
+        "author": "David Miller",
+        "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+        "content": "Qəhvə dəmləmək bir elmdir, V60 isə bu elmin ən zərif hissəsidir. Bir çox insan evdə qəhvə hazırlayarkən bəzi vacib detalları nəzərdən qaçırır. İlk növbədə, suyun keyfiyyəti həlledici rol oynayır. Filtrlənmiş su qəhvənin dadını daha aydın büruzə verir. İkincisi, suyun dərəcəsi 92-94 dərəcə olmalıdır. Qaynayan su qəhvəni yandıra bilər. Üçüncüsü constitutes, qəhvənin üyüdülmə dərəcəsidir. V60 üçün dəniz duzu qədər orta üyüdülmə idealdır."
+      },
+      {
+        "id": 2,
+        "category": "Yeniliklər",
+        "title": "Yaz Mövsümü Üçün Yeni Soyuq İçkilərimiz",
+        "excerpt": "İsti havalarda sərinləmək üçün xüsusi hazırlanmış buzlu qəhvə menyumuzla tanış olun.",
+        "date": "02 May, 2026",
+        "author": "Sarah Jones",
+        "image": "https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&w=800&q=80",
+        "content": "COFFEELAND komandası olaraq yazın gəlişini yeni və təravətləndirici içkilərlə qeyd edirik. Bu il menyumuza əlavə etdiyimiz 'Blueberry Cold Brew' və 'Honey Lavender Iced Latte' artıq müştərilərimizin favoritinə çevrilib. Soyuq dəmləmə (cold brew) üsulu ilə hazırlanan qəhvələrimiz 24 saat ərzində otaq temperaturunda dəmlənir, nəticədə aşağı turşuluqlu və şirin dad profilli bir içki əldə edilir."
+      },
+      {
+        "id": 3,
+        "category": "Mədəniyyət",
+        "title": "Efiopiya: Qəhvənin Vətəninə Səyahət",
+        "excerpt": "Arabika dənəsinin kəşf olunduğu torpaqların zəngin qəhvə mədəniyyəti ilə yaxından tanış olun.",
+        "date": "20 Aprel, 2026",
+        "author": "Alex Rivera",
+        "image": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=800&q=80",
+        "content": "Efiopiya qəhvə dünyasının beşiyidir. Rəvayətə görə, Kaldi adlı çoban keçilərinin müəyyən bir ağacın meyvələrini yedikdən sonra enerjili olduqlarını müşahidə edərkən qəhvəni kəşf etmişdir. Bu gün Efiopiyada hər bölgənin (Yirgacheffe, Sidamo, Harrar) özünəməxsus dad profili var. Efiopiya qəhvələri adətən çiçəkli və meyvəli notları ilə tanınır."
+      },
+      {
+        "id": 4,
+        "category": "Tarix",
+        "title": "Espresso Tarixi: İtaliyadan Dünyaya",
+        "excerpt": "Sürətli qəhvənin necə bir sənət əsərinə çevrildiyini kəşf edin.",
+        "date": "10 Aprel, 2026",
+        "author": "Marco Rossi",
+        "image": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=800&q=80",
+        "content": "Espresso 'təzyiq altında' deməkdir. 20-ci əsrin əvvəllərində Milanda yaranan bu üsul, sənaye inqilabının qəhvə sənətinə töhfəsidir. İlk maşınlar buxar təzyiqi ilə işləyirdi, lakin müasir 9-bar təzyiq standartı 1940-cı illərdə Achille Gaggia tərəfindən gətirildi."
+      },
+      {
+        "id": 5,
+        "category": "Məsləhət",
+        "title": "Doğru Qəhvə Dənəsini Necə Seçməli?",
+        "excerpt": "Fərqli qovrulma dərəcələri və regionlar haqqında bələdçimiz.",
+        "date": "05 Aprel, 2026",
+        "author": "Emily Chen",
+        "image": "https://images.unsplash.com/photo-1447933630913-92e4726fe3d5?auto=format&fit=crop&w=800&q=80",
+        "content": "Açıq, orta yoxsa tünd qovrulma? Hansı sizin damağınıza daha uyğundur? Əgər siz turşuluğu və meyvə dadlarını sevirsinizsə, Afrika mənşəli açıq qovrulmuş qəhvələr sizə görədir. Şokolad və karamel tonları üçün Cənubi Amerika variantları daha yaxşıdır."
+      },
+      {
+        "id": 6,
+        "category": "Sənət",
+        "title": "Yeni Başlayanlar Üçün Latte Art",
+        "excerpt": "Evdə süd köpürtmə və sadə naxışların çəkilmə üsulları.",
+        "date": "28 Mart, 2026",
+        "author": "James Bond",
+        "image": "https://images.unsplash.com/photo-1534430480872-3498306d312c?auto=format&fit=crop&w=800&q=80",
+        "content": "Latté art sadəcə görüntü deyil, həm də südün düzgün teksturasının göstəricisidir. İpək kimi hamar 'microfoam' əldə etmək üçün südü çox qaynatmamaq önəmlidir. Ürək və ya yarpaq naxışları ilə başlayaraq təcrübə toplaya bilərsiniz."
+      },
+      {
+        "id": 7,
+        "category": "Sağlamlıq",
+        "title": "Qəhvə və Sağlamlıq: Elmi Faktlar",
+        "excerpt": "Gündəlik qəhvə qəbulunun orqanizmə təsirləri barədə araşdırmalar.",
+        "date": "20 Mart, 2026",
+        "author": "Dr. Linda Gray",
+        "image": "https://images.unsplash.com/photo-1512568433529-59987c8903ef?auto=format&fit=crop&w=800&q=80",
+        "content": "Antioksidantlarla zəngin olan qəhvə, qaraciyər sağlamlığını qoruya və diabet riskini azalda bilər. Lakin həddindən artıq kofein yuxu rejiminə təsir edə bilər. Balans hər şeydir."
+      },
+      {
+        "id": 8,
+        "category": "Ekologiya",
+        "title": "Davamlı Qəhvə Fermerliyi",
+        "excerpt": "Ətraf mühiti qoruyan qəhvə istehsalı niyə önəmlidir?",
+        "date": "15 Mart, 2026",
+        "author": "Green World",
+        "image": "https://images.unsplash.com/photo-1506485338421-2200776127c5?auto=format&fit=crop&w=800&q=80",
+        "content": "İqlim dəyişikliyi qəhvə plantasiyalarını təhdid edir. 'Fair trade' və ekoloji sertifikatlara malik qəhvələr fermerlərin əməyinin düzgün qiymətləndirilməsini və meşələrin qorunmasını təmin edir."
+      },
+      {
+        "id": 9,
+        "category": "Texnika",
+        "title": "Qovrulma Prosesinin Qəhvə Dadına Təsiri",
+        "excerpt": "Yaşıl dənədən fincana qədər olan kimyəvi transformasiya.",
+        "date": "05 Mart, 2026",
+        "author": "Master Roaster",
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80",
+        "content": "Maillard reaksiyası qəhvənin xarakterini müəyyən edən əsas prosesdir. Qovrulma zamanı şəkər karamelizasiya olur və yüzlərlə fərqli aromatik birləşmələr yaranır."
+      },
+      {
+        "id": 10,
+        "category": "Dünya Turu",
+        "title": "Dünya Boyu Qəhvə Mədəniyyətləri",
+        "excerpt": "Vyetnamdan Türkiyəyə qədər müxtəlif hazırlama üsulları.",
+        "date": "01 Mart, 2026",
+        "author": "Traveler Zak",
+        "image": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&w=800&q=80",
+        "content": "Hər ölkənin özünəməxsus ritualları var. Vyetnamda yumurta ilə qəhvə, İtaliyada bir udumluq espresso, Türkiyədə isə qumda hazırlanan qəhvə. Qəhvə dünyanı birləşdirən ortaq dildir."
+      },
+      {
+        "id": 11,
+        "category": "Mif",
+        "title": "Dekaf (Kofeinsiz) Qəhvə Haqqında Yanlışlar",
+        "excerpt": "Kofeinsiz qəhvənin dadı və hazırlanma üsulları haqqında.",
+        "date": "25 Fevral, 2026",
+        "author": "John Doe",
+        "image": "https://images.unsplash.com/photo-1541167760496-162955ed8a9f?auto=format&fit=crop&w=800&q=80",
+        "content": "Dekaf qəhvənin dadsız olması bir mifdir. Müasir 'Swiss Water' üsulu ilə kimyəvi maddə istifadə etmədən kofeini çıxarılmış dənələr orijinal dadını qoruyur."
+      },
+      {
+        "id": 12,
+        "category": "Məsləhət",
+        "title": "Südün Mükəmməl Köpürtülməsinin 5 Qaydası",
+        "excerpt": "Kapuçino və Flat White üçün ideal süd teksturası.",
+        "date": "10 Fevral, 2026",
+        "author": "Barista Expert",
+        "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80",
+        "content": "Soyuq süd, təmiz buxar çubuğu və düzgün bucaq. Südü köpürtməyə başlayarkən 'cırıldı' səsi eşidilməlidir, sonra isə burulğan (vortex) yaradaraq tekstura hamarlaşdırılmalıdır."
+      }
+    ],
+    "b1": {
+      "title": "Evdə Mükəmməl V60 Dəmləmənin Sirləri",
+      "cat": "Bələdçi",
+      "date": "15 May 2026",
+      "content": "Düzgün üyütmə dərəcəsindən suyun istiliyinə qədər V60 dəmləmənin bütün incəliklərini öyrənin..."
+    },
+    "b2": {
+      "title": "Yaz Mövsümü Üçün Yeni Soyuq İçkilərimiz",
+      "cat": "Yeniliklər",
+      "date": "02 May 2026",
+      "content": "İsti havalarda sərinləmək üçün xüsusi hazırlanmış buzlu qəhvə menyumuzla tanış olun..."
+    },
+    "b3": {
+      "title": "Efiopiya: Qəhvənin Vətəninə Səyahət",
+      "cat": "Mədəniyyət",
+      "date": "20 Apr 2026",
+      "content": "Arabika dənəsinin kəşf olunduğu torpaqların zəngin qəhvə mədəniyyəti ilə yaxından tanış olun..."
+    },
+    "admin": "Admin",
+    "quote": "Qəhvə bir ləzzətdir, COFFEELAND isə bu ləzzətin ən doğru ünvanıdır.",
+    "extra_text": "Əlavə olaraq qeyd edək ki, qəhvənin dadı həm də sizin onu hansı mühitdə və kiminlə içməyinizdən asılıdır. Biz hər zaman sizin üçün ən xoş atmosferi yaratmağa çalışırıq.",
+    "share": "Paylaş",
+    "promo_title": "Yeni Menyunu Kəşf Edin!",
+    "promo_desc": "Ən təzə qəhvə dənələri və ləzzətli desertlər sizi gözləyir.",
+    "promo_btn": "Menyuya Bax",
+    "featured": "Yeni",
+    "detail_title": "Bloq Detalı"
+  },
+  "error": {
+    "title": "Səhifə Tapılmadı",
+    "sub": "Təəssüf ki, axtardığınız səhifə mövcud deyil və ya başqa yerə köçürülüb.",
+    "btn": "Ana Səhifəyə Qayıt",
+    "back": "Geri Dön"
+  },
+  "modal": {
+    "success": "Uğurlu",
+    "error": "Xəta",
+    "info": "Məlumat"
+  },
+  "common": {
+    "ok": "Tamam",
+    "close": "Bağla",
+    "yes": "Bəli",
+    "no": "Xeyr"
+  },
+  "admin": {
+    "sidebar": {
+      "panel": "İdarəetmə Paneli",
+      "stats": "Statistika",
+      "products": "Məhsullar",
+      "blogs": "Bloqlar",
+      "customers": "Müştərilər",
+      "workers": "Əməkdaşlar",
+      "inventory": "Anbar",
+      "settings": "Ayarlar",
+      "logout": "Çıxış",
+      "light_mode": "Açıq rejim",
+      "dark_mode": "Tünd rejim"
+    },
+    "dashboard": {
+      "welcome": "Xoş Gəlmisiniz",
+      "subtitle": "Aşağıda sizin mağazanın anlıq statistikasını görə bilərsiniz.",
+      "active_products": "Aktiv Məhsullar",
+      "customers": "Müştərilər",
+      "orders_today": "Bugünkü Sifarişlər",
+      "orders_preparing": "Hazırlanan Sifarişlər",
+      "orders_completed_all": "Tamamlanmış Sifarişlər (Ümumi)",
+      "orders_cancelled_today": "Ləğv Edilmiş (Bugün)",
+      "orders_cancelled_all": "Ləğv Edilib (Ümumi)",
+      "revenue_today": "Gəlir (Bugün)",
+      "revenue_all": "Ümumi Qazanc (Bütün Zamanlar)",
+      "top_selling": "Ən Çox Satılan",
+      "pieces": "ədəd",
+      "recent_orders": "Son Sifarişlər (Canlı İzləmə)",
+      "no_recent_orders": "Son sifariş yoxdur.",
+      "th_order": "Sifariş",
+      "th_customer": "Müştəri",
+      "th_datetime": "Tarix / Saat",
+      "th_amount": "Məbləğ",
+      "th_total_items": "Cəmi Məhsul",
+      "th_status": "Status",
+      "status_cancelled": "Ləğv edildi",
+      "status_completed": "Tamamlandı",
+      "loading": "Yüklənir..."
+    },
+    "products": {
+      "title": "Məhsullar",
+      "btn_new": "Yeni Məhsul",
+      "search_placeholder": "Məhsul adına görə axtarış...",
+      "th_id": "ID",
+      "th_image": "Şəkil",
+      "th_name": "Ad",
+      "th_category": "Kateqoriya",
+      "th_subcategory": "Alt Kateqoriya",
+      "th_price": "Qiymət",
+      "th_actions": "Əməliyyat",
+      "no_image": "Şəkil yoxdur",
+      "not_found": "Məhsul tapılmadı",
+      "modal_edit_title": "Məhsulu Redaktə Et",
+      "modal_add_title": "Yeni Məhsul Əlavə Et",
+      "lbl_name": "Məhsul Adı",
+      "plc_name": "Məhsulun adı",
+      "lbl_category": "Kateqoriya",
+      "lbl_select_main": "Ana Kateqoriya Seçin",
+      "lbl_subcategory": "Alt Kateqoriya",
+      "lbl_select_sub_first": "Əvvəlcə Kateqoriya Seçin",
+      "lbl_select_sub": "Alt Kateqoriya Seçin",
+      "lbl_price": "Qiymət (₼)",
+      "lbl_image": "Məhsul Şəkli (Yalnız PNG)",
+      "lbl_upload_png": "PNG yükləyin",
+      "lbl_desc": "Açıqlama",
+      "plc_desc": "Məhsul haqqında qısa məlumat...",
+      "btn_cancel": "Ləğv et",
+      "btn_save": "Yadda Saxla",
+      "del_title": "Diqqət!",
+      "del_msg": "Siz bu məhsulu silmək istədiyinizə əminsinizmi?",
+      "btn_no": "Xeyr",
+      "btn_yes": "Bəli",
+      "err_cat_required": "Ana kateqoriya seçilməlidir!",
+      "err_general": "Xəta baş verdi"
+    },
+    "blogs": {
+      "title": "Bloqlar",
+      "btn_new": "Yeni Bloq",
+      "th_id": "ID",
+      "th_title": "Başlıq",
+      "th_category": "Kateqoriya",
+      "th_date": "Tarix",
+      "th_actions": "Əməliyyat",
+      "not_found": "Bloq tapılmadı",
+      "modal_edit_title": "Bloqu Redaktə Et",
+      "modal_add_title": "Yeni Bloq Əlavə Et",
+      "lbl_title": "Başlıq",
+      "plc_title": "Bloqun başlığı",
+      "lbl_category": "Kateqoriya",
+      "plc_category": "Kofe haqqında",
+      "lbl_date": "Tarix",
+      "lbl_image": "Bloq Şəkli (JPEG, JPG, PNG, WEBP)",
+      "lbl_upload_img": "Şəkil yükləyin",
+      "lbl_content": "Məzmun",
+      "plc_content": "Bloqun məzmunu buraya yazılır...",
+      "btn_cancel": "Ləğv et",
+      "btn_save": "Yadda Saxla",
+      "del_confirm": "Bu bloqu silməyə əminsiniz?",
+      "err_general": "Xəta baş verdi"
+    },
+    "customers": {
+      "title": "Müştərilər",
+      "th_id": "ID",
+      "th_name": "Ad / Soyad",
+      "th_email": "E-poçt",
+      "th_address": "Ünvan",
+      "th_joined": "Qeydiyyat Tarixi",
+      "th_orders_count": "Sifariş Sayı",
+      "th_actions": "Əməliyyat",
+      "not_found": "Müştəri tapılmadı",
+      "del_title": "Diqqət!",
+      "del_msg": "Siz bu müştərinizi silmək istədiyinizə əminsinizmi?",
+      "btn_no": "Xeyr",
+      "btn_yes": "Bəli",
+      "err_title": "Xəta!",
+      "btn_close": "Bağla",
+      "err_delete": "Silinərkən xəta baş verdi"
+    },
+    "inventory": {
+      "title": "Anbar / Məmulatlar",
+      "btn_new": "Yeni Məmulatlar",
+      "th_name": "Məmulat Adı",
+      "th_stock": "Ehtiyat (Stok)",
+      "th_unit": "Ölçü Vahidi",
+      "th_actions": "Əməliyyat",
+      "not_found": "Anbarda heç bir məmulat yoxdur",
+      "modal_edit_title": "Məmulatı Yenilə",
+      "modal_add_title": "Yeni Məmulatlar",
+      "lbl_name": "Məmulat Adı",
+      "plc_name": "Məsələn: Südlü Şokolad",
+      "lbl_unit": "Ölçü Vahidi",
+      "lbl_stock": "Mövcud Stok",
+      "btn_cancel": "Ləğv et",
+      "btn_save": "Yadda Saxla",
+      "unit_kg": "Kiloqram (Kq)",
+      "unit_gr": "Qram (q)",
+      "unit_l": "Litr (L)",
+      "unit_ml": "Millilitr (ml)",
+      "unit_pcs": "Ədəd (Əd)",
+      "err_general": "Xəta baş verdi",
+      "del_confirm": "Bu məmulatı anbardan silməyə əminsiniz?"
+    },
+    "workers": {
+      "title": "KDS İşçiləri",
+      "btn_new": "Yeni İşçi (KDS)",
+      "th_id": "ID",
+      "th_name": "Ad / Soyad",
+      "th_email": "Email (Giriş)",
+      "th_date": "Tarix",
+      "th_actions": "Əməliyyat",
+      "not_found": "Sistemdə heç bir işçi (worker) yoxdur",
+      "modal_edit_title": "İşçini Redaktə Et",
+      "modal_add_title": "Yeni İşçi Əlavə Et",
+      "lbl_firstname": "Ad",
+      "plc_firstname": "İşçinin adı",
+      "lbl_lastname": "Soyad",
+      "plc_lastname": "Soyadı",
+      "lbl_email": "Email (Onun üçün login olacaq)",
+      "plc_email": "meselen: barista1@kofeshop.com",
+      "lbl_password": "Şifrə",
+      "plc_pass_edit": "Dəyişmək istəmirsinizsə boş saxlayın",
+      "plc_pass_new": "Ən az 6 simvol",
+      "btn_cancel": "Ləğv et",
+      "btn_save": "Yadda Saxla",
+      "err_prefix": "Xəta baş verdi: ",
+      "err_unknown": "Bilinməyən xəta",
+      "del_confirm": "Bu işçini sistemdən silməyə əminsiniz?"
+    },
+    "settings": {
+      "title": "Profil Ayarları",
+      "lbl_email": "E-poçt (Giriş Login-iniz)",
+      "sub_title_pass": "Şifrəni Dəyişdir (Opsional)",
+      "lbl_current_pass": "Hazırkı Şifrə",
+      "plc_current_pass": "Mövcud şifrənizi yazın",
+      "lbl_new_pass": "Yeni Şifrə",
+      "plc_new_pass": "Ən az 6 simvol",
+      "lbl_new_pass_conf": "Yeni Şifrə (Təkrar)",
+      "plc_new_pass_conf": "Yeni şifrəni təkrar yazın",
+      "btn_update": "Məlumatları Yenilə",
+      "err_general": "Xəta baş verdi"
+    }
+  }
+}

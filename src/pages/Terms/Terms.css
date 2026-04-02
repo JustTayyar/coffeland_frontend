@@ -1,0 +1,207 @@
+/* High-Level Senior CSS for Legal Documents */
+:root {
+    --legal-sidebar-width: 250px;
+    --legal-accent: var(--primary);
+    --legal-bg: var(--bg-body);
+}
+
+.legal-document-page {
+    padding: 120px 0 120px;
+    background-color: var(--legal-bg);
+    min-height: 100vh;
+    color: var(--text-main);
+}
+
+/* Professional Backdrop */
+.legal-document-page::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(180deg, rgba(93, 64, 55, 0.05) 0%, transparent 100%);
+    z-index: 0;
+}
+
+.document-main-grid {
+    display: grid;
+    grid-template-columns: var(--legal-sidebar-width) 1fr;
+    gap: 60px;
+    align-items: start;
+    position: relative;
+    z-index: 1;
+}
+
+/* Sidebar / Table of Contents */
+.document-sidebar {
+    position: sticky;
+    top: 100px;
+    padding: 20px;
+    background: var(--bg-card);
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.toc-title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.toc-item {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: var(--transition);
+    padding: 5px 0;
+    border-left: 2px solid transparent;
+    padding-left: 15px;
+}
+
+.toc-item:hover {
+    color: var(--primary);
+    padding-left: 20px;
+}
+
+.toc-item.active {
+    color: var(--primary);
+    border-color: var(--primary);
+    font-weight: 600;
+}
+
+/* Content Card */
+.document-card {
+    background: var(--bg-card);
+    padding: 80px;
+    border-radius: 30px;
+    box-shadow: var(--shadow-xl);
+    border: 1px solid var(--border-color);
+}
+
+.document-header {
+    margin-bottom: 60px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 40px;
+}
+
+.badge-update {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(93, 64, 55, 0.05);
+    color: var(--primary);
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.document-header h1 {
+    font-size: 3.2rem;
+    font-weight: 900;
+    color: var(--primary);
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.intro-block {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--text-main);
+    margin-bottom: 60px;
+    padding: 30px;
+    background: rgba(93, 64, 55, 0.02);
+    border-radius: 20px;
+    font-style: italic;
+    border: 1px solid var(--primary);
+}
+
+/* Section Styling */
+.document-section {
+    margin-bottom: 60px;
+    scroll-margin-top: 100px;
+}
+
+.document-section h3 {
+    font-size: 1.8rem;
+    color: var(--primary);
+    margin-bottom: 25px;
+    font-family: var(--font-heading);
+    position: relative;
+    padding-left: 0;
+}
+
+.document-section h3::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background: var(--accent);
+    border-radius: 50px;
+}
+
+.document-section p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    color: var(--text-muted);
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Utilities */
+.back-btn-modern {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 40px;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.back-btn-modern:hover {
+    color: var(--primary);
+    transform: translateX(-5px);
+}
+
+@media (max-width: 1100px) {
+    .document-main-grid {
+        grid-template-columns: 1fr;
+    }
+    .document-sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .document-card {
+        padding: 40px 24px;
+        border-radius: 0;
+    }
+    .document-header h1 {
+        font-size: 2.22rem;
+    }
+    .document-section p {
+        text-align: left;
+    }
+}
+

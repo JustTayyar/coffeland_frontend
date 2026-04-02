@@ -1,0 +1,204 @@
+.error-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-body);
+    padding: 24px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.error-glass {
+    background: var(--bg-header);
+    backdrop-filter: blur(16px);
+    border: 1px solid var(--border-color);
+    padding: 60px 40px;
+    border-radius: 32px;
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    box-shadow: var(--shadow-lg);
+    animation: errorFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.error-icon-wrapper {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coffee-icon {
+    font-size: 5rem;
+    color: var(--primary);
+    z-index: 2;
+    animation: cupShake 3s ease-in-out infinite;
+}
+
+.spilled-coffee {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 20px;
+    background: var(--primary);
+    opacity: 0.2;
+    border-radius: 50% 50% 0 0;
+    filter: blur(8px);
+    animation: poolSpread 3s ease-in-out infinite;
+}
+
+.error-code {
+    font-size: 6rem;
+    font-weight: 900;
+    color: var(--primary);
+    line-height: 1;
+    margin-bottom: 10px;
+    font-family: var(--font-heading);
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -4px;
+}
+
+.error-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--text-main);
+    font-family: var(--font-heading);
+}
+
+.error-text {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.error-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.error-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 30px;
+    border-radius: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.error-btn.primary {
+    background: var(--primary);
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(93, 64, 55, 0.2);
+}
+
+.error-btn.primary:hover {
+    background: var(--primary-dark);
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(93, 64, 55, 0.3);
+}
+
+.error-btn.secondary {
+    background: transparent;
+    color: var(--text-main);
+    border: 1px solid var(--border-color);
+}
+
+.error-btn.secondary:hover {
+    background: var(--bg-body);
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+/* Background Beans Animation */
+.coffee-beans-bg {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.bean {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    background: var(--primary);
+    opacity: 0.05;
+    border-radius: 50% / 60% 60% 40% 40%;
+    animation: floatingBean 15s linear infinite;
+}
+
+.bean::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background: rgba(0,0,0,0.2);
+    transform: rotate(-10deg);
+}
+
+.bean-1 { top: 10%; left: 10%; animation-delay: 0s; }
+.bean-2 { top: 20%; right: 15%; animation-delay: -3s; transform: rotate(45deg); }
+.bean-3 { bottom: 15%; left: 20%; animation-delay: -6s; transform: rotate(-30deg); }
+.bean-4 { bottom: 25%; right: 10%; animation-delay: -9s; transform: rotate(15deg); }
+.bean-5 { top: 50%; left: 5%; animation-delay: -12s; transform: rotate(120deg); }
+.bean-6 { top: 40%; right: 25%; animation-delay: -5s; transform: rotate(-80deg); }
+
+/* Animations */
+@keyframes errorFadeIn {
+    from { opacity: 0; transform: scale(0.9) translateY(20px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+@keyframes cupShake {
+    0%, 100% { transform: rotate(0deg); }
+    10%, 30%, 50%, 70%, 90% { transform: rotate(-4deg); }
+    20%, 40%, 60%, 80% { transform: rotate(4deg); }
+}
+
+@keyframes poolSpread {
+    0%, 100% { width: 40px; opacity: 0.1; }
+    50% { width: 80px; opacity: 0.2; }
+}
+
+@keyframes floatingBean {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    33% { transform: translate(30px, 50px) rotate(120deg); }
+    66% { transform: translate(-20px, 100px) rotate(240deg); }
+    100% { transform: translate(0, 0) rotate(360deg); }
+}
+
+/* Responsiveness */
+@media (max-width: 480px) {
+    .error-glass {
+        padding: 40px 24px;
+    }
+    
+    .error-code {
+        font-size: 4rem;
+    }
+    
+    .error-title {
+        font-size: 1.5rem;
+    }
+}

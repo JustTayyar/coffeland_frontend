@@ -1,0 +1,229 @@
+.admin-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.admin-btn-primary {
+  background: var(--primary, #d97706);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+.admin-btn-primary:hover { background: #b45309; }
+
+.admin-btn-secondary {
+  background: #3f3f46;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.admin-btn-secondary:hover { background: #52525b; }
+
+.admin-table-container {
+  background: var(--bg-card, #27272a);
+  border-radius: 12px;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.admin-table2 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table2 th, .admin-table2 td {
+  padding: 16px;
+  text-align: center !important;
+  border-bottom: 1px solid var(--border-color, #3f3f46);
+}
+
+.admin-td-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.admin-td-noimg {
+  width: 50px;
+  height: 50px;
+  background: #3f3f46;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  border-radius: 8px;
+  color: #a1a1aa;
+}
+
+.admin-action-btns {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-edit, .btn-delete {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-edit { color: #3b82f6; }
+.btn-delete { color: #ef4444; }
+
+.admin-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.admin-modal-content {
+  background: var(--bg-card, #27272a);
+  padding: 30px 40px;
+  border-radius: 16px;
+  width: 95%;
+  max-width: 850px;
+}
+
+.admin-form-group {
+  margin-bottom: 16px;
+}
+
+.admin-form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #d4d4d8;
+}
+
+.admin-form-group input, 
+.admin-form-group select, 
+.admin-form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color, #3f3f46);
+  background: #18181b;
+  color: white;
+}
+
+.admin-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+/* FORM GRID LAYOUT */
+.admin-modal-form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 16px;
+}
+
+.admin-form-group.full-width {
+  grid-column: 1 / -1;
+}
+
+.admin-form-group.span-2 {
+  grid-column: span 2;
+}
+
+.admin-form-group.span-3 {
+  grid-column: span 3;
+}
+
+/* LANGUAGE TABS */
+.admin-lang-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 12px;
+}
+
+.lang-tab {
+  background: transparent;
+  border: 1px solid #3f3f46;
+  color: #a1a1aa;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.lang-tab:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+}
+
+.lang-tab.active {
+  background: rgba(217, 119, 6, 0.15);
+  border-color: var(--primary, #d97706);
+  color: var(--primary, #d97706);
+}
+
+.light-mode .lang-tab {
+  border-color: #d1d5db;
+  color: #6b7280;
+}
+.light-mode .lang-tab:hover {
+  background: #f3f4f6;
+  color: #111827;
+}
+.light-mode .lang-tab.active {
+  background: rgba(217, 119, 6, 0.1);
+  border-color: var(--primary, #d97706);
+  color: var(--primary, #d97706);
+}
+
+/* LIGHT MODE OVERRIDES FOR MODAL & CUSTOM FIELDS */
+.light-mode .admin-modal-content {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.light-mode .admin-form-group input,
+.light-mode .admin-form-group textarea {
+  background: #f9fafb;
+  border-color: #d1d5db;
+  color: #111827;
+}
+
+.light-mode .admin-form-group input::placeholder,
+.light-mode .admin-form-group textarea::placeholder {
+  color: #9ca3af;
+}
+
+.light-mode .admin-form-group label {
+  color: #9a3412 !important;
+}
+
+.light-mode .admin-modal-close-btn {
+  background: #f3f4f6;
+  border-color: #e5e7eb;
+  color: #6b7280;
+}
+.light-mode .admin-modal-close-btn:hover {
+  background: #fee2e2;
+  color: #ef4444;
+  border-color: #fca5a5;
+}
+
+

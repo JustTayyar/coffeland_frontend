@@ -1,0 +1,83 @@
+/* News Section Enhancement */
+.news-section { padding: 100px 0; background-color: var(--bg-body); position: relative; }
+
+.news-grid2 {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.news-card {
+    background: var(--bg-card); border-radius: 20px; overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08); transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border: 1px solid var(--border-color); display: flex; flex-direction: column; position: relative;
+}
+
+[data-theme="dark"] .news-card {
+    background: linear-gradient(145deg, rgba(30,30,30,0.8), rgba(20,20,20,0.95));
+    border: 1px solid rgba(255, 255, 255, 0.05); box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
+
+.news-card:hover { transform: translateY(-12px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); border-color: var(--accent); }
+[data-theme="dark"] .news-card:hover { box-shadow: 0 0 20px rgba(212, 163, 115, 0.15), 0 20px 40px rgba(0,0,0,0.5); }
+
+.news-img-wrapper { position: relative; height: 260px; overflow: hidden; }
+
+.news-main-img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+.news-card:hover .news-main-img { transform: scale(1.15); }
+
+.news-img-overlay {
+    position: absolute; bottom: 0; left: 0; width: 100%; height: 60%;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); opacity: 0.6; transition: opacity 0.4s; pointer-events: none;
+}
+.news-card:hover .news-img-overlay { opacity: 0.8; }
+
+.news-date-glass {
+    position: absolute; top: 20px; right: 20px; text-align: center;
+    background: rgba(40, 25, 20, 0.6); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 12px;
+    padding: 8px 16px; color: #fff; box-shadow: 0 8px 20px rgba(0,0,0,0.2); z-index: 2;
+}
+.news-day { display: block; font-size: 1.4rem; font-weight: 800; line-height: 1; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+.news-month { display: block; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-top: 2px; }
+
+.news-content { padding: 35px 30px; flex: 1; display: flex; flex-direction: column; position: relative; z-index: 2; }
+
+.news-category {
+    background: rgba(212, 163, 115, 0.15); color: var(--accent); padding: 6px 14px; border-radius: 30px;
+    font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px;
+    margin-bottom: 20px; display: table; border: 1px solid rgba(212, 163, 115, 0.2);
+}
+
+.news-title { font-size: 1.5rem; margin-bottom: 15px; line-height: 1.4; color: var(--text-main); font-weight: 800; transition: color 0.3s; }
+.news-card:hover .news-title { color: var(--accent); }
+
+.news-desc { color: var(--text-muted); font-size: 1.05rem; line-height: 1.7; margin-bottom: 30px; flex: 1; }
+
+.news-read-more {
+    display: flex; align-items: center; gap: 12px; color: var(--text-main); font-weight: 700; font-size: 0.95rem;
+    text-transform: uppercase; letter-spacing: 1px; width: max-content; transition: color 0.3s; text-decoration: none;
+}
+.read-more-icon {
+    width: 40px; height: 40px; border-radius: 50%; background: var(--bg-body); display: flex; align-items: center; justify-content: center;
+    color: var(--primary); transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); border: 1px solid var(--border-color);
+}
+.news-card:hover .read-more-icon { background: var(--accent); color: #fff; transform: translateX(5px) rotate(-45deg); box-shadow: 0 8px 15px rgba(212, 163, 115, 0.3); border-color: var(--accent); }
+.news-card:hover .news-read-more { color: var(--accent); }
+
+@media (max-width: 600px) {
+    .news-card { border-radius: 16px; }
+    .news-date-glass { top: 15px; right: 15px; padding: 6px 12px; }
+    .news-day { font-size: 1.2rem; }
+}
+
+@media (max-width: 450px) {
+    .news-section { padding: 60px 0; }
+    .news-grid2 { grid-template-columns: 1fr; gap: 25px; margin-top: 30px; }
+    .news-img-wrapper { height: 220px; }
+    .news-content { padding: 25px 20px; }
+    .news-title { font-size: 1.3rem; }
+    .news-desc { font-size: 0.95rem; margin-bottom: 20px; }
+}

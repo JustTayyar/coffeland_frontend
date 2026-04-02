@@ -1,0 +1,734 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "favorites": "Favorites",
+    "orders": "My Orders",
+    "about": "About Us",
+    "contact": "Contact",
+    "blogs": "Coffee Blogs",
+    "login": "Login",
+    "logout": "Logout",
+    "blog_detail": "Blog Detail"
+  },
+  "home": {
+    "hero": {
+      "s1": {
+        "sub": "Premium Coffee Experience",
+        "title": "Perfect Start to Your Day",
+        "text": "Discover our coffees brewed with love from the freshest beans.",
+        "btn": "Order Now"
+      },
+      "s2": {
+        "sub": "Specially Roasted",
+        "title": "Feel the Real Taste",
+        "text": "Rich aromas from the best plantations in the world.",
+        "btn": "View Menu"
+      },
+      "s3": {
+        "sub": "Any Time of the Day",
+        "title": "A Different Experience",
+        "text": "Add a special touch to every moment with our hot and cold drinks.",
+        "btn": "About Us"
+      }
+    },
+    "features": {
+      "title": "Why Us?",
+      "sub": "The path to perfection",
+      "f1": {
+        "title": "100% Organic Beans",
+        "desc": "We only use naturally sourced coffee beans of the highest quality."
+      },
+      "f2": {
+        "title": "Custom Roasting",
+        "desc": "We bring out the true flavors with roasting profiles tailored for each coffee type."
+      },
+      "f3": {
+        "title": "Master Baristas",
+        "desc": "Our professional baristas turn every cup into a work of art, giving you a flawless experience."
+      }
+    },
+    "about": {
+      "exp1": "10+",
+      "exp2": "Years<br/>Experience",
+      "stat1": "Coffee Varieties",
+      "stat2": "Customers",
+      "stat3": "Branches",
+      "subtitle": "OUR STORY",
+      "title": "Flavor in Every Cup, Art in Every Sip",
+      "desc": "Coffee is not just a drink; it is a medium that brings people together. We strive to make you feel this warmth in every cup.",
+      "l1": "Daily Fresh Roasting",
+      "l2": "Cozy and Warm Atmosphere",
+      "l3": "World Classics and Custom Recipes",
+      "btn": "More About Us"
+    },
+    "process": {
+      "title": "Our Process",
+      "sub": "Journey of perfection from bean to cup",
+      "s1": {
+        "title": "Selection",
+        "desc": "We carefully select high quality Specialty coffee beans from the best plantations."
+      },
+      "s2": {
+        "title": "Roasting",
+        "desc": "Perfectly roasted by our master roasters to unlock the potential of every bean."
+      },
+      "s3": {
+        "title": "Brewing",
+        "desc": "Brewed with precision by our baristas using modern equipment and traditional methods."
+      },
+      "s4": {
+        "title": "Presentation",
+        "desc": "Served as a masterpiece prepared with love, beautiful latte art, and perfect taste."
+      }
+    },
+    "quote": {
+      "text": "Coffee is happiness in a cup. We specially prepare that happiness for you.",
+      "role": "Head Barista"
+    },
+    "news": {
+      "title": "Whats in the Coffee World?",
+      "sub": "News, tips, and stories",
+      "read": "Read more",
+      "b1": {
+        "day": "15",
+        "month": "May 2026",
+        "category": "Guide",
+        "title": "Secrets of Perfect V60 Brewing at Home",
+        "desc": "Learn all the nuances of V60 brewing, from the right grind size to water temperature."
+      },
+      "b2": {
+        "day": "02",
+        "month": "May 2026",
+        "category": "Updates",
+        "title": "Our New Cold Drinks for the Summer Season",
+        "desc": "Check out our special iced coffee menu designed to keep you cool in hot weather."
+      },
+      "b3": {
+        "day": "20",
+        "month": "Apr 2026",
+        "category": "Culture",
+        "title": "Ethiopia: A Journey to the Homeland of Coffee",
+        "desc": "Get to know the rich coffee culture of the lands where the Arabica bean was discovered."
+      }
+    },
+    "newsletter": {
+      "title": "Your Morning Coffee is on Us!",
+      "desc": "Subscribe to our newsletter and be the first to know about new products and discounts. Get 15% off your first order!",
+      "plc": "Your email address",
+      "btn": "Subscribe",
+      "alert": "Subscribed! Thank you."
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Our Story",
+      "sub": "More than just a cup of coffee"
+    },
+    "story": {
+      "badge1": "2026",
+      "badge2": "Founded",
+      "sub": "The Beginning",
+      "title": "From Passion to Reality",
+      "p1": "We started in 2026 in the heart of Baku with a small dream: we want to give people not just caffeine, but an inspiring experience. We believe every coffee bean tells a story – of the soil, the sun, and the hands that grew it.",
+      "p2": "Our mission is to source the finest arabica beans directly from farmers, roast them using traditional methods, and present them to you.",
+      "stat1": "Customers",
+      "stat2": "Coffee Types",
+      "stat3": "Organic"
+    },
+    "values": {
+      "title": "Our Values",
+      "sub": "The principles behind the perfection in every cup",
+      "v1": {
+        "title": "Sustainability",
+        "desc": "We use eco-friendly packaging and production methods without harming nature."
+      },
+      "v2": {
+        "title": "Quality",
+        "desc": "We always choose the freshest and highest quality products. No compromises."
+      },
+      "v3": {
+        "title": "Community",
+        "desc": "Our coffee house is not just a shop, it's a place where friends meet and ideas are shared."
+      }
+    },
+    "team": {
+      "title": "Our Professional Team",
+      "sub": "Passionate faces serving you every day",
+      "role1": "Head Barista",
+      "role2": "Manager",
+      "role3": "Roaster",
+      "desc1": "8 years of experience in coffee brewing and latte art.",
+      "desc2": "Responsible for customer satisfaction and flawless service.",
+      "desc3": "A true artisan who roasts coffee beans to the perfect profile."
+    },
+    "journey": {
+      "title": "Excellence From Bean to Cup",
+      "sub": "Our Process",
+      "s1": {
+        "title": "Quality Sourcing",
+        "desc": "We select only the highest quality beans from the world's finest plantations."
+      },
+      "s2": {
+        "title": "Expert Roasting",
+        "desc": "Professionally roasted to bring out the unique flavor profile of every single bean."
+      },
+      "s3": {
+        "title": "Precision Brewing",
+        "desc": "A blend of modern technology and barista artistry creates an extraordinary taste."
+      },
+      "s4": {
+        "title": "Perfect Moment",
+        "desc": "In every sip, you feel the distinct energy and quality of COFFEELAND."
+      }
+    }
+  },
+  "menu": {
+    "all": "All",
+    "add": "Add to Cart",
+    "cat_coffee": "Coffee",
+    "cat_tea": "Tea",
+    "cat_dessert": "Dessert",
+    "cat_breakfast": "Breakfast"
+  },
+  "footer": {
+    "desc": "Masterfully crafted coffee from the finest beans. We are here for the perfect start to your day and your most pleasant breaks.",
+    "links_title": "Links",
+    "contact_title": "Contact",
+    "categories_title": "Menu",
+    "address": "123 Nizami Street,<br/>Baku, Azerbaijan",
+    "rights": "COFFEELAND. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "hours_title": "Opening Hours",
+    "mon_fri": "Monday - Friday",
+    "mon_fri_hours": "08:00 - 22:00",
+    "sat": "Saturday",
+    "sat_hours": "09:00 - 23:00",
+    "sun": "Sunday",
+    "sun_hours": "09:00 - 21:00"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty.",
+    "empty_title": "Your Cart is Empty",
+    "empty_sub": "Explore our menu to find your favorite coffee and add it to your cart.",
+    "remove": "Remove",
+    "total": "Total:",
+    "checkout": "Checkout",
+    "clear": "Clear All",
+    "alert_success": "Order completed!",
+    "alert_error": "Error creating order. Please try again."
+  },
+  "auth": {
+    "login_title": "Login",
+    "login_sub": "Sign in to your account",
+    "email_label": "Email",
+    "email_placeholder": "your@email.com",
+    "pass_label": "Password",
+    "pass_placeholder": "Enter your password",
+    "btn_login": "Login",
+    "no_account": "Don't have an account?",
+    "register_link": "Sign up",
+    "err_email_req": "Email is required",
+    "err_email_invalid": "Enter a valid email",
+    "err_pass_req": "Password is required",
+    "err_pass_min": "Password must be at least 6 characters",
+    "register_title": "Register",
+    "register_sub": "Create a new account",
+    "fname_label": "First Name",
+    "fname_placeholder": "Your First Name",
+    "fname_pop": "Enter your name correctly",
+    "lname_label": "Last Name",
+    "lname_placeholder": "Your Last Name",
+    "lname_pop": "Enter your surname correctly",
+    "address_label": "Address",
+    "address_placeholder": "Your address (e.g., 123 Main St)",
+    "address_pop": "Please enter your precise residential address",
+    "pass_conf_label": "Confirm Password",
+    "pass_conf_placeholder": "Enter password again",
+    "pass_pop": "Password: Min 8 chars, 1 uppercase, 1 number",
+    "err_email_format": "Email must be a valid format with an @ symbol",
+    "err_pass_weak": "Password is too weak. Must have min 8 chars, 1 uppercase, 1 number",
+    "err_pass_match": "Passwords do not match",
+    "strength": "Password Strength",
+    "pass_pop2": "Min. 8 chars, 1 uppercase, 1 special char",
+    "pass_match_success": "Passwords match ✓",
+    "empty_fields": "Please fill in all fields.",
+    "terms_accept": "I agree to the ",
+    "terms_link": "Terms of Use",
+    "and": " and ",
+    "privacy_link": "Privacy Policy",
+    "terms_req": "You must accept the terms to register.",
+    "pass_conf_pop": "Please re-enter your password",
+    "overlay_left_title": "Welcome Back!",
+    "overlay_left_text": "Log in to your account and order delicious coffee.",
+    "overlay_right_title": "Join Us!",
+    "overlay_right_text": "Create an account and discover our amazing coffee selection.",
+    "login_empty_err": "Please check your email and password.",
+    "login_invalid_err": "Email or password is wrong.",
+    "forgot_pass_q": "Forgot your password?",
+    "forgot_pass_link": "I forgot",
+    "reset_pass_title": "Reset Password",
+    "reset_pass_desc": "You can reset your password via email.",
+    "btn_reset": "Send Reset Link",
+    "email_used_err": "This email is already used, please enter a new email!"
+  },
+  "profile": {
+    "guest": "Guest User",
+    "status_pending": "Pending",
+    "status_preparing": "Preparing",
+    "status_completed": "Completed",
+    "tab_info": "My Info",
+    "tab_orders": "My Orders",
+    "tab_favs": "Favorites",
+    "tab_settings": "Settings",
+    "logout": "Logout",
+    "fname": "First Name",
+    "lname": "Last Name",
+    "email": "Email",
+    "address": "Address",
+    "not_provided": "Not provided",
+    "btn_edit": "Update Info",
+    "alert_success": "Information updated successfully!",
+    "new_email": "New Email",
+    "del_address": "Delivery Address",
+    "address_placeholder": "Enter your address here",
+    "new_pass": "New Password",
+    "new_pass_placeholder": "Set your new password",
+    "pass_conf": "Confirm Password",
+    "pass_conf_placeholder": "Type the new password again",
+    "btn_save": "Save"
+  },
+  "orders": {
+    "title": "My Orders",
+    "sub": "View and track your previous orders",
+    "empty_title": "No orders yet",
+    "empty_sub": "Choose delicious products from our menu and place your first order!",
+    "btn_menu": "Go to Menu",
+    "history": "Order History",
+    "order_count": "orders",
+    "order_lbl": "Order",
+    "no_date": "No date",
+    "products": "Products",
+    "product_lbl": "Product #",
+    "total": "Total",
+    "completed": "Completed",
+    "pending": "Pending",
+    "btn_delete": "Delete",
+    "confirm_delete_msg": "Do you want to delete this order?",
+    "confirm_delete_title": "Delete Order",
+    "deleted_success": "Order successfully deleted!"
+  },
+  "favorites": {
+    "title": "Favorites",
+    "sub": "Your favorite coffees in one place",
+    "empty_title": "You haven't liked anything yet",
+    "empty_sub": "Browse our menu and add your favorite coffees to favorites.",
+    "btn_menu": "View Menu"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "last_updated": "Last updated: March 20, 2026",
+    "intro": "At COFFEELAND, we respect your privacy and are committed to protecting your personal data. This policy explains how your information is collected and used when you use our website.",
+    "s1_title": "1. What information do we collect?",
+    "s1_text": "We collect information such as your name, surname, email address, phone number, and delivery address to provide our services. Some technical data (IP address, browser type) may also be collected automatically during website navigation.",
+    "s2_title": "2. How do we use your information?",
+    "s2_text": "The information we collect is used to process your orders, manage your account, improve our service quality, and, with your permission, inform you about new campaigns.",
+    "s3_title": "3. Cookies",
+    "s3_text": "Our website uses cookies to improve the user experience. You can disable cookies at any time from your browser settings.",
+    "s4_title": "4. Data Security",
+    "s4_text": "We use modern encryption methods and security protocols to ensure the security of your personal data.",
+    "s5_title": "5. Contact Us",
+    "s5_text": "If you have any questions about our privacy policy, you can reach us at hello@coffeeland.az."
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "last_updated": "Last updated: March 20, 2026",
+    "intro": "Welcome to the COFFEELAND website and services. This document is a legal agreement governing the rules of use for all digital and physical services provided by us. By using this website, you are considered to have accepted all the terms and conditions set forth below unconditionally.",
+    "s1_title": "1. General Provisions and Agreement",
+    "s1_text": "These Terms of Use constitute a formal agreement between COFFEELAND and the user, defining the rights and obligations of the parties. If you do not agree with any point of these terms, please stop using the website immediately. We reserve the right to unilaterally change these terms at any time without prior notice, and the updated terms shall be considered effective from the moment they are published on the site.",
+    "s2_title": "2. User Account and Responsibility",
+    "s2_text": "You are personally responsible for the accuracy and completeness of the information you provide when registering on our website. Keeping your account password confidential and all activities performed through your account are your direct obligation. If you suspect unauthorized access to your account by third parties, you are required to inform us immediately. COFFEELAND has the right to freeze or cancel the accounts of users who provide false or misleading information.",
+    "s3_title": "3. Intellectual Property Rights",
+    "s3_text": "All content on the website, including logos, design elements, texts, graphics, videos, software, and other materials, belongs to the COFFEELAND platform and is protected by international copyright laws. Copying, transmitting, using for commercial purposes, or modifying these materials without our written permission is strictly prohibited. Any illegal use discovered will result in appropriate legal action.",
+    "s4_title": "4. Orders, Payments, and Delivery",
+    "s4_text": "Each order placed through the website is considered a formal offer and is deemed accepted once confirmed by us. Product prices and availability are subject to change at any time. Payments must be made using only the provided secure methods. Delivery times and conditions may vary depending on the chosen address and logistical capabilities. COFFEELAND is not responsible for delays caused by force majeure events (natural disasters, governmental decisions, etc.).",
+    "s5_title": "5. Limitation of Liability",
+    "s5_text": "We do not guarantee that the website will operate 24/7 without interruption or errors, although we mobilize all our technical capabilities for this purpose. In no event shall COFFEELAND be liable for any direct or indirect losses, data loss, or damage to devices that may occur during the use of the site by the user. All risks arising from non-compliance with the terms of use fall on the user."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "sub": "Have any questions or suggestions? Write to us!",
+    "form_name": "Your Name",
+    "form_email": "Your Email",
+    "form_subject": "Subject",
+    "form_message": "Your Message",
+    "form_btn": "Send Message",
+    "info_title": "Contact Information",
+    "info_address": "45 Nizami St, Baku",
+    "info_phone": "+994 12 345 67 89",
+    "info_email": "hello@coffeeland.az",
+    "info_hours": "Every day: 08:00 - 23:00",
+    "success_msg": "Your message has been sent successfully. We will get back to you soon."
+  },
+  "blogs": {
+    "title": "Blogs from the Coffee World",
+    "sub": "You are in the right place to learn what is happening in the world of coffee.",
+    "read_more": "Read more",
+    "pagination_prev": "Back",
+    "pagination_next": "Next",
+    "author": "Author",
+    "recent_posts": "Recent Posts",
+    "categories": "Categories",
+    "items": [
+      {
+        "id": 1,
+        "category": "Guide",
+        "title": "Secrets of the Perfect V60 Brew at Home",
+        "excerpt": "Learn all the intricacies of V60 brewing, from the right grind size to water temperature.",
+        "date": "May 15, 2026",
+        "author": "David Miller",
+        "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+        "content": "Brewing coffee is a science, and V60 is the most elegant part of this science. Many people overlook some important details when making coffee at home. First of all, water quality is decisive. Filtered water reveals the taste of coffee more clearly. Secondly, the water temperature should be 92-94 degrees. Boiling water can burn the coffee. Thirdly, the grind size of the coffee is important. A medium grind, like sea salt, is ideal for V60."
+      },
+      {
+        "id": 2,
+        "category": "News",
+        "title": "Our New Cold Drinks for the Summer Season",
+        "excerpt": "Meet our iced coffee menu specially prepared to cool off in hot weather.",
+        "date": "May 02, 2026",
+        "author": "Sarah Jones",
+        "image": "https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&w=800&q=80",
+        "content": "As the COFFEELAND team, we celebrate the arrival of spring with new and refreshing drinks. This year, the 'Blueberry Cold Brew' and 'Honey Lavender Iced Latte' we added to our menu have already become our customers' favorites. Our coffees prepared with the cold brew method are brewed for 24 hours at room temperature, resulting in a low-acid and sweet taste profile drink."
+      },
+      {
+        "id": 3,
+        "category": "Culture",
+        "title": "Ethiopia: Journey to the Home of Coffee",
+        "excerpt": "Get to know the rich coffee culture of the lands where the Arabica bean was discovered.",
+        "date": "April 20, 2026",
+        "author": "Alex Rivera",
+        "image": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=800&q=80",
+        "content": "Ethiopia is the cradle of the coffee world. According to legend, a shepherd named Kaldi discovered coffee while observing that his goats became energetic after eating the fruits of a certain tree. Today, each region in Ethiopia (Yirgacheffe, Sidamo, Harrar) has its own unique taste profile. Ethiopian coffees are generally known for their floral and fruity notes."
+      },
+      {
+        "id": 4,
+        "category": "History",
+        "title": "History of Espresso: From Italy to the World",
+        "excerpt": "Discover how fast coffee turned into a piece of art.",
+        "date": "April 10, 2026",
+        "author": "Marco Rossi",
+        "image": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=800&q=80",
+        "content": "Espresso means 'under pressure'. Originating in Milan in the early 20th century, this method is the coffee industry's contribution to the industrial revolution. The first machines worked with steam pressure, but the modern 9-bar pressure standard was introduced by Achille Gaggia in the 1940s."
+      },
+      {
+        "id": 5,
+        "category": "Advice",
+        "title": "How to Choose the Right Coffee Bean?",
+        "excerpt": "Our guide to different roast levels and regions.",
+        "date": "April 05, 2026",
+        "author": "Emily Chen",
+        "image": "https://images.unsplash.com/photo-1447933630913-92e4726fe3d5?auto=format&fit=crop&w=800&q=80",
+        "content": "Light, medium, or dark roast? Which one is more suitable for your palate? If you like acidity and fruit flavors, light-roasted coffees of African origin are for you. South American options are better for chocolate and caramel tones."
+      },
+      {
+        "id": 6,
+        "category": "Art",
+        "title": "Latte Art for Beginners",
+        "excerpt": "Methods for frothing milk at home and drawing simple patterns.",
+        "date": "March 28, 2026",
+        "author": "James Bond",
+        "image": "https://images.unsplash.com/photo-1534430480872-3498306d312c?auto=format&fit=crop&w=800&q=80",
+        "content": "Latte art is not just an image, it's also an indicator of the correct texture of the milk. To achieve a silky smooth 'microfoam', it's important not to overheat the milk. You can gain experience by starting with heart or leaf patterns."
+      },
+      {
+        "id": 7,
+        "category": "Health",
+        "title": "Coffee and Health: Scientific Facts",
+        "excerpt": "Research on the effects of daily coffee consumption on the body.",
+        "date": "March 20, 2026",
+        "author": "Dr. Linda Gray",
+        "image": "https://images.unsplash.com/photo-1512568433529-59987c8903ef?auto=format&fit=crop&w=800&q=80",
+        "content": "Rich in antioxidants, coffee can protect liver health and reduce the risk of diabetes. However, excessive caffeine can affect sleep patterns. Balance is everything."
+      },
+      {
+        "id": 8,
+        "category": "Ecology",
+        "title": "Sustainable Coffee Farming",
+        "excerpt": "Why is environmentally friendly coffee production important?",
+        "date": "March 15, 2026",
+        "author": "Green World",
+        "image": "https://images.unsplash.com/photo-1506485338421-2200776127c5?auto=format&fit=crop&w=800&q=80",
+        "content": "Climate change threatens coffee plantations. 'Fair trade' and ecologically certified coffees ensure proper valuation of farmers' labor and protection of forests."
+      },
+      {
+        "id": 9,
+        "category": "Technique",
+        "title": "Effect of the Roasting Process on Coffee Taste",
+        "excerpt": "The chemical transformation from green bean to cup.",
+        "date": "March 05, 2026",
+        "author": "Master Roaster",
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80",
+        "content": "The Maillard reaction is the main process that determines the character of the coffee. During roasting, sugars caramelize and hundreds of different aromatic compounds are created."
+      },
+      {
+        "id": 10,
+        "category": "World Tour",
+        "title": "Coffee Cultures Around the World",
+        "excerpt": "Various preparation methods from Vietnam to Turkey.",
+        "date": "March 01, 2026",
+        "author": "Traveler Zak",
+        "image": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&w=800&q=80",
+        "content": "Each country has its own unique rituals. Coffee with egg in Vietnam, a shot of espresso in Italy, and coffee prepared on sand in Turkey. Coffee is the common language that unites the world."
+      },
+      {
+        "id": 11,
+        "category": "Myth",
+        "title": "Misconceptions About Decaf Coffee",
+        "excerpt": "About the taste and preparation methods of decaffeinated coffee.",
+        "date": "February 25, 2026",
+        "author": "John Doe",
+        "image": "https://images.unsplash.com/photo-1541167760496-162955ed8a9f?auto=format&fit=crop&w=800&q=80",
+        "content": "It's a myth that decaf coffee is tasteless. Beans decaffeinated without using chemicals with the modern 'Swiss Water' method maintain their original taste."
+      },
+      {
+        "id": 12,
+        "category": "Advice",
+        "title": "5 Rules for Perfect Milk Frothing",
+        "excerpt": "Ideal milk texture for Cappuccino and Flat White.",
+        "date": "February 10, 2026",
+        "author": "Barista Expert",
+        "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80",
+        "content": "Cold milk, a clean steam wand, and the right angle. A 'tearing' sound should be heard when you start frothing the milk, and then a vortex should be created to smooth out the texture."
+      }
+    ],
+    "b1": {
+      "title": "Secrets of Perfect V60 Brewing at Home",
+      "cat": "Guide",
+      "date": "15 May 2026",
+      "content": "Learn all the nuances of V60 brewing, from the right grind size to water temperature..."
+    },
+    "b2": {
+      "title": "Our New Cold Drinks for the Summer Season",
+      "cat": "Updates",
+      "date": "02 May 2026",
+      "content": "Check out our special iced coffee menu designed to keep you cool in hot weather..."
+    },
+    "b3": {
+      "title": "Ethiopia: A Journey to the Homeland of Coffee",
+      "cat": "Culture",
+      "date": "20 Apr 2026",
+      "content": "Get to know the rich coffee culture of the lands where the Arabica bean was discovered..."
+    },
+    "admin": "Admin",
+    "quote": "Coffee is a delight, and COFFEELAND is the right address for this delight.",
+    "extra_text": "Additionally, the taste of coffee also depends on the environment and who you drink it with. We always try to create the most pleasant atmosphere for you.",
+    "share": "Share",
+    "promo_title": "Discover the New Menu!",
+    "promo_desc": "The freshest coffee beans and delicious desserts are waiting for you.",
+    "promo_btn": "View Menu",
+    "featured": "Featured",
+    "detail_title": "Blog Detail"
+  },
+  "error": {
+    "title": "Page Not Found",
+    "sub": "We're sorry, the page you requested could not be found. Please go back to the homepage.",
+    "btn": "Back to Home",
+    "back": "Go Back"
+  },
+  "modal": {
+    "success": "Success",
+    "error": "Error",
+    "info": "Info"
+  },
+  "common": {
+    "ok": "OK",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "admin": {
+    "sidebar": {
+      "panel": "Control Panel",
+      "stats": "Statistics",
+      "products": "Products",
+      "blogs": "Blogs",
+      "customers": "Customers",
+      "workers": "Workers",
+      "inventory": "Inventory",
+      "settings": "Settings",
+      "logout": "Logout",
+      "light_mode": "Light mode",
+      "dark_mode": "Dark mode"
+    },
+    "dashboard": {
+      "welcome": "Welcome",
+      "subtitle": "Below you can see the real-time statistics of your store.",
+      "active_products": "Active Products",
+      "customers": "Customers",
+      "orders_today": "Orders Today",
+      "orders_preparing": "Orders Preparing",
+      "orders_completed_all": "Completed Orders (Total)",
+      "orders_cancelled_today": "Cancelled (Today)",
+      "orders_cancelled_all": "Cancelled (Total)",
+      "revenue_today": "Revenue (Today)",
+      "revenue_all": "Total Revenue (All Time)",
+      "top_selling": "Top Selling",
+      "pieces": "pcs",
+      "recent_orders": "Recent Orders (Live)",
+      "no_recent_orders": "No recent orders.",
+      "th_order": "Order",
+      "th_customer": "Customer",
+      "th_datetime": "Date / Time",
+      "th_amount": "Amount",
+      "th_total_items": "Total Items",
+      "th_status": "Status",
+      "status_cancelled": "Cancelled",
+      "status_completed": "Completed",
+      "loading": "Loading..."
+    },
+    "products": {
+      "title": "Products",
+      "btn_new": "New Product",
+      "search_placeholder": "Search by product name...",
+      "th_id": "ID",
+      "th_image": "Image",
+      "th_name": "Name",
+      "th_category": "Category",
+      "th_subcategory": "Sub Category",
+      "th_price": "Price",
+      "th_actions": "Actions",
+      "no_image": "No image",
+      "not_found": "Product not found",
+      "modal_edit_title": "Edit Product",
+      "modal_add_title": "Add New Product",
+      "lbl_name": "Product Name",
+      "plc_name": "Name of the product",
+      "lbl_category": "Category",
+      "lbl_select_main": "Select Main Category",
+      "lbl_subcategory": "Subcategory",
+      "lbl_select_sub_first": "Select Category First",
+      "lbl_select_sub": "Select Subcategory",
+      "lbl_price": "Price (₼)",
+      "lbl_image": "Product Image (PNG Only)",
+      "lbl_upload_png": "Upload PNG",
+      "lbl_desc": "Description",
+      "plc_desc": "Short info about the product...",
+      "btn_cancel": "Cancel",
+      "btn_save": "Save",
+      "del_title": "Attention!",
+      "del_msg": "Are you sure you want to delete this product?",
+      "btn_no": "No",
+      "btn_yes": "Yes",
+      "err_cat_required": "Main category must be selected!",
+      "err_general": "An error occurred"
+    },
+    "blogs": {
+      "title": "Blogs",
+      "btn_new": "New Blog",
+      "th_id": "ID",
+      "th_title": "Title",
+      "th_category": "Category",
+      "th_date": "Date",
+      "th_actions": "Actions",
+      "not_found": "Blog not found",
+      "modal_edit_title": "Edit Blog",
+      "modal_add_title": "Add New Blog",
+      "lbl_title": "Title",
+      "plc_title": "Blog title",
+      "lbl_category": "Category",
+      "plc_category": "About coffee",
+      "lbl_date": "Date",
+      "lbl_image": "Blog Image (JPEG, JPG, PNG, WEBP)",
+      "lbl_upload_img": "Upload image",
+      "lbl_content": "Content",
+      "plc_content": "Blog content goes here...",
+      "btn_cancel": "Cancel",
+      "btn_save": "Save",
+      "del_confirm": "Are you sure you want to delete this blog?",
+      "err_general": "An error occurred"
+    },
+    "customers": {
+      "title": "Customers",
+      "th_id": "ID",
+      "th_name": "Full Name",
+      "th_email": "Email",
+      "th_address": "Address",
+      "th_joined": "Registration Date",
+      "th_orders_count": "Orders Count",
+      "th_actions": "Actions",
+      "not_found": "Customer not found",
+      "del_title": "Attention!",
+      "del_msg": "Are you sure you want to delete this customer?",
+      "btn_no": "No",
+      "btn_yes": "Yes",
+      "err_title": "Error!",
+      "btn_close": "Close",
+      "err_delete": "Error occurred while deleting"
+    },
+    "inventory": {
+      "title": "Inventory / Ingredients",
+      "btn_new": "New Ingredients",
+      "th_name": "Ingredient Name",
+      "th_stock": "Stock",
+      "th_unit": "Unit",
+      "th_actions": "Actions",
+      "not_found": "No ingredients in inventory",
+      "modal_edit_title": "Update Ingredient",
+      "modal_add_title": "New Ingredients",
+      "lbl_name": "Ingredient Name",
+      "plc_name": "E.g: Milk Chocolate",
+      "lbl_unit": "Unit of Measurement",
+      "lbl_stock": "Available Stock",
+      "btn_cancel": "Cancel",
+      "btn_save": "Save",
+      "unit_kg": "Kilogram (Kg)",
+      "unit_gr": "Gram (g)",
+      "unit_l": "Liter (L)",
+      "unit_ml": "Milliliter (ml)",
+      "unit_pcs": "Pieces (Pcs)",
+      "err_general": "An error occurred",
+      "del_confirm": "Are you sure you want to delete this ingredient from inventory?"
+    },
+    "workers": {
+      "title": "KDS Workers",
+      "btn_new": "New Worker (KDS)",
+      "th_id": "ID",
+      "th_name": "Full Name",
+      "th_email": "Email (Login)",
+      "th_date": "Date",
+      "th_actions": "Actions",
+      "not_found": "There are no workers in the system",
+      "modal_edit_title": "Edit Worker",
+      "modal_add_title": "Add New Worker",
+      "lbl_firstname": "First Name",
+      "plc_firstname": "Worker's name",
+      "lbl_lastname": "Last Name",
+      "plc_lastname": "Surname",
+      "lbl_email": "Email (Will be used for login)",
+      "plc_email": "e.g: barista1@coffeeshop.com",
+      "lbl_password": "Password",
+      "plc_pass_edit": "Leave empty if you don't want to change",
+      "plc_pass_new": "At least 6 characters",
+      "btn_cancel": "Cancel",
+      "btn_save": "Save",
+      "err_prefix": "An error occurred: ",
+      "err_unknown": "Unknown error",
+      "del_confirm": "Are you sure you want to delete this worker from the system?"
+    },
+    "settings": {
+      "title": "Profile Settings",
+      "lbl_email": "E-mail (Your Login)",
+      "sub_title_pass": "Change Password (Optional)",
+      "lbl_current_pass": "Current Password",
+      "plc_current_pass": "Enter your current password",
+      "lbl_new_pass": "New Password",
+      "plc_new_pass": "At least 6 characters",
+      "lbl_new_pass_conf": "New Password (Confirm)",
+      "plc_new_pass_conf": "Repeat the new password",
+      "btn_update": "Update Information",
+      "err_general": "An error occurred"
+    }
+  }
+}

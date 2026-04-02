@@ -1,0 +1,378 @@
+/* ===== Loading Overlay ===== */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(ellipse at 50% 40%, #2C1810 0%, #1A0E08 55%, #0D0705 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.loading-scene {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  perspective: 800px;
+}
+
+/* ===== Arxa fon partikulları ===== */
+.particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: radial-gradient(circle, rgba(210, 160, 90, 0.6), transparent);
+  border-radius: 50%;
+  animation: floatParticle 8s ease-in-out infinite;
+}
+
+.p-1 { left: 10%; top: 80%; animation-delay: 0s; animation-duration: 7s; }
+.p-2 { left: 25%; top: 85%; animation-delay: 1.2s; animation-duration: 9s; }
+.p-3 { left: 50%; top: 90%; animation-delay: 0.5s; animation-duration: 8s; }
+.p-4 { left: 70%; top: 82%; animation-delay: 2s; animation-duration: 10s; }
+.p-5 { left: 85%; top: 88%; animation-delay: 0.8s; animation-duration: 7.5s; }
+.p-6 { left: 40%; top: 75%; animation-delay: 1.5s; animation-duration: 9.5s; }
+
+/* ===== 3D Fincan ===== */
+.cup-wrapper {
+  position: relative;
+  animation: gentleFloat 4s ease-in-out infinite;
+}
+
+.cup-3d {
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateX(12deg) rotateY(-8deg);
+}
+
+/* Fincan gövdəsi */
+.cup-body {
+  width: 130px;
+  height: 110px;
+  background: linear-gradient(135deg, #FAFAFA 0%, #E8E0D8 30%, #D4C8BC 60%, #C0B0A0 100%);
+  border-radius: 8px 8px 45% 45%;
+  position: relative;
+  overflow: hidden;
+  box-shadow:
+    inset -8px -4px 16px rgba(0, 0, 0, 0.08),
+    inset 5px 3px 10px rgba(255, 255, 255, 0.6),
+    0 20px 40px rgba(0, 0, 0, 0.4),
+    0 8px 16px rgba(0, 0, 0, 0.3),
+    -4px 0 20px rgba(0, 0, 0, 0.15),
+    4px 0 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.cup-shine {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  width: 25px;
+  height: 70px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 100%);
+  border-radius: 20px;
+  transform: rotate(-5deg);
+}
+
+/* Qəhvə səthi */
+.coffee-surface {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 75%;
+  background: linear-gradient(180deg, #5D3A1A 0%, #3E2210 50%, #2A1508 100%);
+  border-radius: 0 0 45% 45%;
+  overflow: hidden;
+  animation: coffeePulse 3s ease-in-out infinite;
+}
+
+.coffee-wave {
+  position: absolute;
+  top: -8px;
+  left: -20%;
+  width: 140%;
+  height: 24px;
+  background: radial-gradient(ellipse at 50% 80%,
+    rgba(139, 90, 43, 0.8) 0%,
+    rgba(100, 65, 30, 0.5) 50%,
+    transparent 70%);
+  border-radius: 50%;
+  animation: waveMove 3s ease-in-out infinite;
+}
+
+.coffee-wave.wave-2 {
+  top: -4px;
+  animation-delay: -1.5s;
+  animation-duration: 3.5s;
+  opacity: 0.6;
+}
+
+.coffee-shine {
+  position: absolute;
+  top: 5px;
+  left: 20%;
+  width: 35%;
+  height: 12px;
+  background: radial-gradient(ellipse, rgba(255,255,255,0.15) 0%, transparent 70%);
+  border-radius: 50%;
+  animation: coffeeShine 4s ease-in-out infinite;
+}
+
+/* Fincan qulpu */
+.cup-handle {
+  position: absolute;
+  right: -32px;
+  top: 18px;
+  width: 38px;
+  height: 54px;
+  border: 6px solid transparent;
+  border-right-color: #D4C8BC;
+  border-radius: 0 50% 50% 0;
+  box-shadow:
+    4px 0 0 0 #C0B0A0,
+    inset -3px 0 6px rgba(0,0,0,0.1),
+    6px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Nəlbəki */
+.saucer {
+  width: 170px;
+  height: 18px;
+  background: linear-gradient(180deg, #E8E0D8 0%, #D0C4B8 50%, #C8BAA8 100%);
+  border-radius: 50%;
+  margin-top: -4px;
+  margin-left: -20px;
+  position: relative;
+  box-shadow:
+    inset 0 -3px 6px rgba(0,0,0,0.1),
+    inset 0 2px 4px rgba(255,255,255,0.4),
+    0 6px 20px rgba(0,0,0,0.3);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.saucer-inner {
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 10px;
+  background: rgba(0,0,0,0.05);
+  border-radius: 50%;
+}
+
+/* Kölgə */
+.cup-shadow {
+  width: 150px;
+  height: 14px;
+  background: radial-gradient(ellipse, rgba(0,0,0,0.35) 0%, transparent 70%);
+  border-radius: 50%;
+  margin-top: 6px;
+  margin-left: -10px;
+  animation: shadowPulse 4s ease-in-out infinite;
+}
+
+/* ===== Buxar ===== */
+.steam-box {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.steam {
+  width: 8px;
+  height: 40px;
+  background: linear-gradient(180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.06) 30%,
+    rgba(255, 255, 255, 0.04) 70%,
+    rgba(255, 255, 255, 0) 100%);
+  border-radius: 50%;
+  filter: blur(4px);
+  animation: steamFloat 2.5s ease-out infinite;
+}
+
+.s1 { animation-delay: 0s; }
+.s2 { animation-delay: 0.7s; height: 50px; }
+.s3 { animation-delay: 1.4s; }
+
+/* ===== Qəhvə dənələri ===== */
+.beans {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.bean {
+  position: absolute;
+  font-size: 18px;
+  opacity: 0.15;
+  animation: beanDrift 12s ease-in-out infinite;
+}
+
+.bean-1 { left: 12%; top: 20%; animation-delay: 0s; font-size: 22px; }
+.bean-2 { right: 15%; top: 35%; animation-delay: 3s; font-size: 16px; }
+.bean-3 { left: 8%; bottom: 25%; animation-delay: 6s; font-size: 20px; }
+
+/* ===== Yüklənmə mətni ===== */
+.loading-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.loading-brand {
+  font-family: var(--font-heading, "Playfair Display", serif);
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 8px;
+  background: linear-gradient(135deg, #D4A574 0%, #F0D9B5 40%, #D4A574 60%, #A67C52 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+  text-shadow: none;
+}
+
+.loading-bar {
+  display: none;
+}
+
+.loading-bar-fill {
+  display: none;
+}
+
+/* ===== Fincan ikonları loader ===== */
+.coffee-cups-loader {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.cup-icon {
+  font-size: 1.6rem;
+  opacity: 0.15;
+  filter: grayscale(0.3);
+  animation: cupGlow 1.5s ease-in-out infinite;
+  transition: opacity 0.3s;
+}
+
+.loading-label {
+  font-family: var(--font-body, "Inter", sans-serif);
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: rgba(210, 165, 116, 0.5);
+  display: flex;
+}
+
+.char {
+  display: inline-block;
+  animation: charReveal 2s ease-in-out infinite;
+}
+
+.ldot {
+  display: inline-block;
+  animation: dotBounce 1.4s ease-in-out infinite;
+  color: rgba(210, 165, 116, 0.5);
+}
+
+/* ===== Animasiyalar ===== */
+
+@keyframes gentleFloat {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+
+@keyframes coffeePulse {
+  0%, 100% { height: 75%; }
+  50%      { height: 78%; }
+}
+
+@keyframes waveMove {
+  0%   { transform: translateX(-10%) scaleY(1); }
+  50%  { transform: translateX(10%) scaleY(1.5); }
+  100% { transform: translateX(-10%) scaleY(1); }
+}
+
+@keyframes coffeeShine {
+  0%, 100% { opacity: 0.8; transform: translateX(0); }
+  50%      { opacity: 0.3; transform: translateX(10px); }
+}
+
+@keyframes steamFloat {
+  0%   { opacity: 0; transform: translateY(10px) scaleX(1); }
+  20%  { opacity: 1; }
+  60%  { opacity: 0.4; transform: translateY(-20px) scaleX(1.8); }
+  100% { opacity: 0; transform: translateY(-45px) scaleX(2.5); }
+}
+
+@keyframes shadowPulse {
+  0%, 100% { transform: scaleX(1); opacity: 0.8; }
+  50%      { transform: scaleX(0.9); opacity: 0.6; }
+}
+
+@keyframes floatParticle {
+  0%   { opacity: 0; transform: translateY(0) scale(1); }
+  20%  { opacity: 0.8; }
+  80%  { opacity: 0.2; }
+  100% { opacity: 0; transform: translateY(-100vh) scale(0.3); }
+}
+
+@keyframes beanDrift {
+  0%, 100% { transform: translateY(0) rotate(0deg); opacity: 0.15; }
+  25%      { transform: translateY(-15px) rotate(10deg); opacity: 0.25; }
+  50%      { transform: translateY(-5px) rotate(-5deg); opacity: 0.15; }
+  75%      { transform: translateY(-20px) rotate(8deg); opacity: 0.2; }
+}
+
+@keyframes shimmer {
+  0%   { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}
+
+@keyframes barSlide {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+@keyframes charReveal {
+  0%, 100% { opacity: 0.5; transform: translateY(0); }
+  50%      { opacity: 1; transform: translateY(-1px); }
+}
+
+@keyframes dotBounce {
+  0%, 20%  { opacity: 0; }
+  40%      { opacity: 1; transform: translateY(-2px); }
+  60%, 100%{ opacity: 0; transform: translateY(0); }
+}
+
+@keyframes cupGlow {
+  0%, 100% { opacity: 0.15; transform: scale(1); filter: grayscale(0.3); }
+  50%      { opacity: 1; transform: scale(1.15); filter: grayscale(0) drop-shadow(0 0 6px rgba(212, 165, 116, 0.5)); }
+}

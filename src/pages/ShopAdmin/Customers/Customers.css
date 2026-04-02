@@ -1,0 +1,13 @@
+/* Customers specific styles */.customer-orders-badge {
+  display: inline-block;
+  background-color: rgba(217, 119, 6, 0.2);
+  color: var(--primary, #d97706);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.costumers-header{
+  display: flex;
+  justify-content: center;
+}
